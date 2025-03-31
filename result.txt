@@ -1,0 +1,1000 @@
+
+Processing index 0:
+
+Computing scores for execution results: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1]]
+Result counts: Counter({(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0): 2, (1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1): 1})
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=2, passing_tests=0, score=0
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=2, passing_tests=0, score=0
+Result [1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1]: frequency=1, passing_tests=12, score=12
+Scores for index 0: [0, 0, 12]
+Execution results for index 0: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1]]
+
+Processing index 1:
+
+Computing scores for execution results: [[0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1]]
+Result counts: Counter({(0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0): 1, (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0): 1, (1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1): 1})
+Result [0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0]: frequency=1, passing_tests=8, score=8
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=1, passing_tests=0, score=0
+Result [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1]: frequency=1, passing_tests=7, score=7
+Scores for index 1: [8, 0, 7]
+Execution results for index 1: [[0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1]]
+
+Processing index 2:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1]: frequency=3, passing_tests=10, score=30
+Result [1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1]: frequency=3, passing_tests=10, score=30
+Result [1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1]: frequency=3, passing_tests=10, score=30
+Scores for index 2: [30, 30, 30]
+Execution results for index 2: [[1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1]]
+
+Processing index 3:
+
+Computing scores for execution results: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+Result counts: Counter({(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0): 3})
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=3, passing_tests=0, score=0
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=3, passing_tests=0, score=0
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=3, passing_tests=0, score=0
+Scores for index 3: [0, 0, 0]
+Execution results for index 3: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+
+Processing index 4:
+
+Computing scores for execution results: [[1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0], [1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0], [1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0]]
+Result counts: Counter({(1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0): 3})
+Result [1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0]: frequency=3, passing_tests=11, score=33
+Result [1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0]: frequency=3, passing_tests=11, score=33
+Result [1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0]: frequency=3, passing_tests=11, score=33
+Scores for index 4: [33, 33, 33]
+Execution results for index 4: [[1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0], [1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0], [1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0]]
+
+Processing index 5:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Scores for index 5: [45, 45, 45]
+Execution results for index 5: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 6:
+
+Computing scores for execution results: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0], [1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 1], [1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1]]
+Result counts: Counter({(0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0): 1, (1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 1): 1, (1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1): 1})
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]: frequency=1, passing_tests=1, score=1
+Result [1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 1]: frequency=1, passing_tests=8, score=8
+Result [1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1]: frequency=1, passing_tests=7, score=7
+Scores for index 6: [1, 8, 7]
+Execution results for index 6: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0], [1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 1], [1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1]]
+
+Processing index 7:
+
+Computing scores for execution results: [[0, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 0], [0, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 0], [0, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 0]]
+Result counts: Counter({(0, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 0): 3})
+Result [0, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 0]: frequency=3, passing_tests=7, score=21
+Result [0, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 0]: frequency=3, passing_tests=7, score=21
+Result [0, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 0]: frequency=3, passing_tests=7, score=21
+Scores for index 7: [21, 21, 21]
+Execution results for index 7: [[0, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 0], [0, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 0], [0, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 0]]
+
+Processing index 8:
+
+Computing scores for execution results: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+Result counts: Counter({(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0): 3})
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=3, passing_tests=0, score=0
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=3, passing_tests=0, score=0
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=3, passing_tests=0, score=0
+Scores for index 8: [0, 0, 0]
+Execution results for index 8: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+
+Processing index 9:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1], [1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1], [1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1): 3})
+Result [1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1]: frequency=3, passing_tests=12, score=36
+Result [1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1]: frequency=3, passing_tests=12, score=36
+Result [1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1]: frequency=3, passing_tests=12, score=36
+Scores for index 9: [36, 36, 36]
+Execution results for index 9: [[1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1], [1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1], [1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1]]
+
+Processing index 10:
+
+Computing scores for execution results: [[1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+Result counts: Counter({(1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0): 3})
+Result [1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=3, passing_tests=3, score=9
+Result [1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=3, passing_tests=3, score=9
+Result [1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=3, passing_tests=3, score=9
+Scores for index 10: [9, 9, 9]
+Execution results for index 10: [[1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+
+Processing index 11:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Scores for index 11: [45, 45, 45]
+Execution results for index 11: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 12:
+
+Computing scores for execution results: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+Result counts: Counter({(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0): 3})
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=3, passing_tests=0, score=0
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=3, passing_tests=0, score=0
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=3, passing_tests=0, score=0
+Scores for index 12: [0, 0, 0]
+Execution results for index 12: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+
+Processing index 13:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Scores for index 13: [45, 45, 45]
+Execution results for index 13: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 14:
+
+Computing scores for execution results: [[0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0], [0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1], [0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0]]
+Result counts: Counter({(0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0): 2, (0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1): 1})
+Result [0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0]: frequency=2, passing_tests=6, score=12
+Result [0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1]: frequency=1, passing_tests=9, score=9
+Result [0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0]: frequency=2, passing_tests=6, score=12
+Scores for index 14: [12, 9, 12]
+Execution results for index 14: [[0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0], [0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1], [0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0]]
+
+Processing index 15:
+
+Computing scores for execution results: [[0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0], [0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0], [0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0]]
+Result counts: Counter({(0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0): 3})
+Result [0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0]: frequency=3, passing_tests=6, score=18
+Result [0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0]: frequency=3, passing_tests=6, score=18
+Result [0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0]: frequency=3, passing_tests=6, score=18
+Scores for index 15: [18, 18, 18]
+Execution results for index 15: [[0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0], [0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0], [0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0]]
+
+Processing index 16:
+
+Computing scores for execution results: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0): 2, (1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 1})
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=2, passing_tests=0, score=0
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=2, passing_tests=0, score=0
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=1, passing_tests=15, score=15
+Scores for index 16: [0, 0, 15]
+Execution results for index 16: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 17:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Scores for index 17: [45, 45, 45]
+Execution results for index 17: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 18:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Scores for index 18: [45, 45, 45]
+Execution results for index 18: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 19:
+
+Computing scores for execution results: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 1, 1, 0, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0], [1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 1, 0, 0, 0, 0]]
+Result counts: Counter({(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0): 1, (1, 0, 1, 1, 0, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0): 1, (1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 1, 0, 0, 0, 0): 1})
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=1, passing_tests=0, score=0
+Result [1, 0, 1, 1, 0, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0]: frequency=1, passing_tests=7, score=7
+Result [1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 1, 0, 0, 0, 0]: frequency=1, passing_tests=6, score=6
+Scores for index 19: [0, 7, 6]
+Execution results for index 19: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 1, 1, 0, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0], [1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 1, 0, 0, 0, 0]]
+
+Processing index 20:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Scores for index 20: [45, 45, 45]
+Execution results for index 20: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 21:
+
+Computing scores for execution results: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+Result counts: Counter({(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0): 3})
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=3, passing_tests=0, score=0
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=3, passing_tests=0, score=0
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=3, passing_tests=0, score=0
+Scores for index 21: [0, 0, 0]
+Execution results for index 21: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+
+Processing index 22:
+
+Computing scores for execution results: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1]]
+Result counts: Counter({(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1): 3})
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1]: frequency=3, passing_tests=2, score=6
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1]: frequency=3, passing_tests=2, score=6
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1]: frequency=3, passing_tests=2, score=6
+Scores for index 22: [6, 6, 6]
+Execution results for index 22: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1]]
+
+Processing index 23:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Scores for index 23: [45, 45, 45]
+Execution results for index 23: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 24:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Scores for index 24: [45, 45, 45]
+Execution results for index 24: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 25:
+
+Computing scores for execution results: [[1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0]]
+Result counts: Counter({(1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0): 1, (1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 1, (0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0): 1})
+Result [1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0]: frequency=1, passing_tests=11, score=11
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=1, passing_tests=15, score=15
+Result [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0]: frequency=1, passing_tests=3, score=3
+Scores for index 25: [11, 15, 3]
+Execution results for index 25: [[1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0]]
+
+Processing index 26:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Scores for index 26: [45, 45, 45]
+Execution results for index 26: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 27:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Scores for index 27: [45, 45, 45]
+Execution results for index 27: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 28:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 2, (1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1): 1})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=2, passing_tests=15, score=30
+Result [1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1]: frequency=1, passing_tests=13, score=13
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=2, passing_tests=15, score=30
+Scores for index 28: [30, 13, 30]
+Execution results for index 28: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 29:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Scores for index 29: [45, 45, 45]
+Execution results for index 29: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 30:
+
+Computing scores for execution results: [[0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0], [0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0], [0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0]]
+Result counts: Counter({(0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0): 3})
+Result [0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0]: frequency=3, passing_tests=4, score=12
+Result [0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0]: frequency=3, passing_tests=4, score=12
+Result [0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0]: frequency=3, passing_tests=4, score=12
+Scores for index 30: [12, 12, 12]
+Execution results for index 30: [[0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0], [0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0], [0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0]]
+
+Processing index 31:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1], [0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1): 2, (0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1): 1})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1]: frequency=2, passing_tests=14, score=28
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1]: frequency=2, passing_tests=14, score=28
+Result [0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1]: frequency=1, passing_tests=10, score=10
+Scores for index 31: [28, 28, 10]
+Execution results for index 31: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1], [0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1]]
+
+Processing index 32:
+
+Computing scores for execution results: [[0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1], [0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1], [0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1]]
+Result counts: Counter({(0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1): 3})
+Result [0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1]: frequency=3, passing_tests=12, score=36
+Result [0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1]: frequency=3, passing_tests=12, score=36
+Result [0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1]: frequency=3, passing_tests=12, score=36
+Scores for index 32: [36, 36, 36]
+Execution results for index 32: [[0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1], [0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1], [0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1]]
+
+Processing index 33:
+
+Computing scores for execution results: [[1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0], [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0], [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0]]
+Result counts: Counter({(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0): 3})
+Result [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0]: frequency=3, passing_tests=3, score=9
+Result [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0]: frequency=3, passing_tests=3, score=9
+Result [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0]: frequency=3, passing_tests=3, score=9
+Scores for index 33: [9, 9, 9]
+Execution results for index 33: [[1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0], [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0], [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0]]
+
+Processing index 34:
+
+Computing scores for execution results: [[1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0], [1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0], [1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0]]
+Result counts: Counter({(1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0): 3})
+Result [1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0]: frequency=3, passing_tests=9, score=27
+Result [1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0]: frequency=3, passing_tests=9, score=27
+Result [1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0]: frequency=3, passing_tests=9, score=27
+Scores for index 34: [27, 27, 27]
+Execution results for index 34: [[1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0], [1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0], [1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0]]
+
+Processing index 35:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Scores for index 35: [45, 45, 45]
+Execution results for index 35: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 36:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1], [1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1], [1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1): 3})
+Result [1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1]: frequency=3, passing_tests=13, score=39
+Result [1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1]: frequency=3, passing_tests=13, score=39
+Result [1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1]: frequency=3, passing_tests=13, score=39
+Scores for index 36: [39, 39, 39]
+Execution results for index 36: [[1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1], [1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1], [1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1]]
+
+Processing index 37:
+
+Computing scores for execution results: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+Result counts: Counter({(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0): 3})
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=3, passing_tests=0, score=0
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=3, passing_tests=0, score=0
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=3, passing_tests=0, score=0
+Scores for index 37: [0, 0, 0]
+Execution results for index 37: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+
+Processing index 38:
+
+Computing scores for execution results: [[1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=13, score=39
+Result [1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=13, score=39
+Result [1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=13, score=39
+Scores for index 38: [39, 39, 39]
+Execution results for index 38: [[1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 39:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Scores for index 39: [45, 45, 45]
+Execution results for index 39: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 40:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 2, (1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0): 1})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=2, passing_tests=15, score=30
+Result [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0]: frequency=1, passing_tests=3, score=3
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=2, passing_tests=15, score=30
+Scores for index 40: [30, 3, 30]
+Execution results for index 40: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 41:
+
+Computing scores for execution results: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1]]
+Result counts: Counter({(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1): 3})
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1]: frequency=3, passing_tests=5, score=15
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1]: frequency=3, passing_tests=5, score=15
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1]: frequency=3, passing_tests=5, score=15
+Scores for index 41: [15, 15, 15]
+Execution results for index 41: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1]]
+
+Processing index 42:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Scores for index 42: [45, 45, 45]
+Execution results for index 42: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 43:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Scores for index 43: [45, 45, 45]
+Execution results for index 43: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 44:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Scores for index 44: [45, 45, 45]
+Execution results for index 44: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 45:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1]: frequency=3, passing_tests=13, score=39
+Result [1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1]: frequency=3, passing_tests=13, score=39
+Result [1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1]: frequency=3, passing_tests=13, score=39
+Scores for index 45: [39, 39, 39]
+Execution results for index 45: [[1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1]]
+
+Processing index 46:
+
+Computing scores for execution results: [[1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1], [1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1], [0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]]
+Result counts: Counter({(1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1): 2, (0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0): 1})
+Result [1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1]: frequency=2, passing_tests=12, score=24
+Result [1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1]: frequency=2, passing_tests=12, score=24
+Result [0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]: frequency=1, passing_tests=2, score=2
+Scores for index 46: [24, 24, 2]
+Execution results for index 46: [[1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1], [1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1], [0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]]
+
+Processing index 47:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Scores for index 47: [45, 45, 45]
+Execution results for index 47: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 48:
+
+Computing scores for execution results: [[1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1], [1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1], [1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1]]
+Result counts: Counter({(1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1): 3})
+Result [1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1]: frequency=3, passing_tests=12, score=36
+Result [1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1]: frequency=3, passing_tests=12, score=36
+Result [1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1]: frequency=3, passing_tests=12, score=36
+Scores for index 48: [36, 36, 36]
+Execution results for index 48: [[1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1], [1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1], [1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1]]
+
+Processing index 49:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 2, (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0): 1})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=2, passing_tests=15, score=30
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=1, passing_tests=0, score=0
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=2, passing_tests=15, score=30
+Scores for index 49: [30, 0, 30]
+Execution results for index 49: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 50:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Scores for index 50: [45, 45, 45]
+Execution results for index 50: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 51:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+Result counts: Counter({(1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1): 2, (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0): 1})
+Result [1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=2, passing_tests=14, score=28
+Result [1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=2, passing_tests=14, score=28
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=1, passing_tests=0, score=0
+Scores for index 51: [28, 28, 0]
+Execution results for index 51: [[1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+
+Processing index 52:
+
+Computing scores for execution results: [[0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+Result counts: Counter({(0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0): 3})
+Result [0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=3, passing_tests=3, score=9
+Result [0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=3, passing_tests=3, score=9
+Result [0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=3, passing_tests=3, score=9
+Scores for index 52: [9, 9, 9]
+Execution results for index 52: [[0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+
+Processing index 53:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Scores for index 53: [45, 45, 45]
+Execution results for index 53: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 54:
+
+Computing scores for execution results: [[1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0], [1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0], [1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0]]
+Result counts: Counter({(1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0): 3})
+Result [1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0]: frequency=3, passing_tests=10, score=30
+Result [1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0]: frequency=3, passing_tests=10, score=30
+Result [1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0]: frequency=3, passing_tests=10, score=30
+Scores for index 54: [30, 30, 30]
+Execution results for index 54: [[1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0], [1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0], [1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0]]
+
+Processing index 55:
+
+Computing scores for execution results: [[0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1], [0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1], [0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=10, score=30
+Result [0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=10, score=30
+Result [0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=10, score=30
+Scores for index 55: [30, 30, 30]
+Execution results for index 55: [[0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1], [0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1], [0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 56:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=14, score=42
+Result [1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=14, score=42
+Result [1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=14, score=42
+Scores for index 56: [42, 42, 42]
+Execution results for index 56: [[1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1]]
+
+Processing index 57:
+
+Computing scores for execution results: [[1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0]]
+Result counts: Counter({(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0): 2, (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0): 1})
+Result [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0]: frequency=2, passing_tests=3, score=6
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=1, passing_tests=0, score=0
+Result [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0]: frequency=2, passing_tests=3, score=6
+Scores for index 57: [6, 0, 6]
+Execution results for index 57: [[1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0]]
+
+Processing index 58:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Scores for index 58: [45, 45, 45]
+Execution results for index 58: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 59:
+
+Computing scores for execution results: [[1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=14, score=42
+Result [1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=14, score=42
+Result [1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=14, score=42
+Scores for index 59: [42, 42, 42]
+Execution results for index 59: [[1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 60:
+
+Computing scores for execution results: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+Result counts: Counter({(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0): 3})
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=3, passing_tests=0, score=0
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=3, passing_tests=0, score=0
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=3, passing_tests=0, score=0
+Scores for index 60: [0, 0, 0]
+Execution results for index 60: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+
+Processing index 61:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Scores for index 61: [45, 45, 45]
+Execution results for index 61: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 62:
+
+Computing scores for execution results: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0]]
+Result counts: Counter({(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0): 2, (0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0): 1})
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=2, passing_tests=0, score=0
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=2, passing_tests=0, score=0
+Result [0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0]: frequency=1, passing_tests=3, score=3
+Scores for index 62: [0, 0, 3]
+Execution results for index 62: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0]]
+
+Processing index 63:
+
+Computing scores for execution results: [[1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0], [1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0], [1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0]]
+Result counts: Counter({(1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0): 3})
+Result [1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0]: frequency=3, passing_tests=12, score=36
+Result [1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0]: frequency=3, passing_tests=12, score=36
+Result [1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0]: frequency=3, passing_tests=12, score=36
+Scores for index 63: [36, 36, 36]
+Execution results for index 63: [[1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0], [1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0], [1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0]]
+
+Processing index 64:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1], [1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1]]
+Result counts: Counter({(1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1): 2, (1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 1})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=1, passing_tests=15, score=15
+Result [1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1]: frequency=2, passing_tests=12, score=24
+Result [1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1]: frequency=2, passing_tests=12, score=24
+Scores for index 64: [15, 24, 24]
+Execution results for index 64: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1], [1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1]]
+
+Processing index 65:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Scores for index 65: [45, 45, 45]
+Execution results for index 65: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 66:
+
+Computing scores for execution results: [[1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=14, score=42
+Result [1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=14, score=42
+Result [1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=14, score=42
+Scores for index 66: [42, 42, 42]
+Execution results for index 66: [[1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 67:
+
+Computing scores for execution results: [[0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1], [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1], [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1]]
+Result counts: Counter({(0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1): 3})
+Result [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1]: frequency=3, passing_tests=6, score=18
+Result [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1]: frequency=3, passing_tests=6, score=18
+Result [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1]: frequency=3, passing_tests=6, score=18
+Scores for index 67: [18, 18, 18]
+Execution results for index 67: [[0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1], [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1], [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1]]
+
+Processing index 68:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Scores for index 68: [45, 45, 45]
+Execution results for index 68: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 69:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Scores for index 69: [45, 45, 45]
+Execution results for index 69: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 70:
+
+Computing scores for execution results: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1]]
+Result counts: Counter({(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0): 2, (1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1): 1})
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=2, passing_tests=0, score=0
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=2, passing_tests=0, score=0
+Result [1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1]: frequency=1, passing_tests=11, score=11
+Scores for index 70: [0, 0, 11]
+Execution results for index 70: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1]]
+
+Processing index 71:
+
+Computing scores for execution results: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1]]
+Result counts: Counter({(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1): 3})
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1]: frequency=3, passing_tests=4, score=12
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1]: frequency=3, passing_tests=4, score=12
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1]: frequency=3, passing_tests=4, score=12
+Scores for index 71: [12, 12, 12]
+Execution results for index 71: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1]]
+
+Processing index 72:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Scores for index 72: [45, 45, 45]
+Execution results for index 72: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 73:
+
+Computing scores for execution results: [[0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0], [0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0], [0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0]]
+Result counts: Counter({(0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0): 2, (0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0): 1})
+Result [0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0]: frequency=2, passing_tests=3, score=6
+Result [0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0]: frequency=1, passing_tests=6, score=6
+Result [0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0]: frequency=2, passing_tests=3, score=6
+Scores for index 73: [6, 6, 6]
+Execution results for index 73: [[0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0], [0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0], [0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0]]
+
+Processing index 74:
+
+Computing scores for execution results: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]]
+Result counts: Counter({(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0): 3})
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]: frequency=3, passing_tests=1, score=3
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]: frequency=3, passing_tests=1, score=3
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]: frequency=3, passing_tests=1, score=3
+Scores for index 74: [3, 3, 3]
+Execution results for index 74: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]]
+
+Processing index 75:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Scores for index 75: [45, 45, 45]
+Execution results for index 75: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 76:
+
+Computing scores for execution results: [[1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 1], [1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 1], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+Result counts: Counter({(1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 1): 2, (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0): 1})
+Result [1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 1]: frequency=2, passing_tests=9, score=18
+Result [1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 1]: frequency=2, passing_tests=9, score=18
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=1, passing_tests=0, score=0
+Scores for index 76: [18, 18, 0]
+Execution results for index 76: [[1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 1], [1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 1], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+
+Processing index 77:
+
+Computing scores for execution results: [[1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=14, score=42
+Result [1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=14, score=42
+Result [1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=14, score=42
+Scores for index 77: [42, 42, 42]
+Execution results for index 77: [[1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 78:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Scores for index 78: [45, 45, 45]
+Execution results for index 78: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 79:
+
+Computing scores for execution results: [[1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0], [1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0], [1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0]]
+Result counts: Counter({(1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0): 3})
+Result [1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0]: frequency=3, passing_tests=6, score=18
+Result [1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0]: frequency=3, passing_tests=6, score=18
+Result [1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0]: frequency=3, passing_tests=6, score=18
+Scores for index 79: [18, 18, 18]
+Execution results for index 79: [[1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0], [1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0], [1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0]]
+
+Processing index 80:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 2, (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0): 1})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=2, passing_tests=15, score=30
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=2, passing_tests=15, score=30
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=1, passing_tests=0, score=0
+Scores for index 80: [30, 30, 0]
+Execution results for index 80: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+
+Processing index 81:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Scores for index 81: [45, 45, 45]
+Execution results for index 81: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 82:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Scores for index 82: [45, 45, 45]
+Execution results for index 82: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 83:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Scores for index 83: [45, 45, 45]
+Execution results for index 83: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 84:
+
+Computing scores for execution results: [[0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1], [0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1], [0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1]]
+Result counts: Counter({(0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1): 3})
+Result [0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1]: frequency=3, passing_tests=6, score=18
+Result [0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1]: frequency=3, passing_tests=6, score=18
+Result [0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1]: frequency=3, passing_tests=6, score=18
+Scores for index 84: [18, 18, 18]
+Execution results for index 84: [[0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1], [0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1], [0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1]]
+
+Processing index 85:
+
+Computing scores for execution results: [[0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0]]
+Result counts: Counter({(0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0): 3})
+Result [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0]: frequency=3, passing_tests=5, score=15
+Result [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0]: frequency=3, passing_tests=5, score=15
+Result [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0]: frequency=3, passing_tests=5, score=15
+Scores for index 85: [15, 15, 15]
+Execution results for index 85: [[0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0]]
+
+Processing index 86:
+
+Computing scores for execution results: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+Result counts: Counter({(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0): 2, (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1): 1})
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=2, passing_tests=0, score=0
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1]: frequency=1, passing_tests=5, score=5
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=2, passing_tests=0, score=0
+Scores for index 86: [0, 5, 0]
+Execution results for index 86: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+
+Processing index 87:
+
+Computing scores for execution results: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+Result counts: Counter({(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0): 3})
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=3, passing_tests=0, score=0
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=3, passing_tests=0, score=0
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=3, passing_tests=0, score=0
+Scores for index 87: [0, 0, 0]
+Execution results for index 87: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+
+Processing index 88:
+
+Computing scores for execution results: [[1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1], [1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1], [0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1]]
+Result counts: Counter({(1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1): 2, (0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1): 1})
+Result [1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1]: frequency=2, passing_tests=12, score=24
+Result [1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1]: frequency=2, passing_tests=12, score=24
+Result [0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1]: frequency=1, passing_tests=5, score=5
+Scores for index 88: [24, 24, 5]
+Execution results for index 88: [[1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1], [1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1], [0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1]]
+
+Processing index 89:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Scores for index 89: [45, 45, 45]
+Execution results for index 89: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 90:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Scores for index 90: [45, 45, 45]
+Execution results for index 90: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+Processing index 91:
+
+Computing scores for execution results: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]]
+Result counts: Counter({(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0): 3})
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]: frequency=3, passing_tests=1, score=3
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]: frequency=3, passing_tests=1, score=3
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]: frequency=3, passing_tests=1, score=3
+Scores for index 91: [3, 3, 3]
+Execution results for index 91: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]]
+
+Processing index 92:
+
+Computing scores for execution results: [[0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0]]
+Result counts: Counter({(0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0): 3})
+Result [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0]: frequency=3, passing_tests=5, score=15
+Result [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0]: frequency=3, passing_tests=5, score=15
+Result [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0]: frequency=3, passing_tests=5, score=15
+Scores for index 92: [15, 15, 15]
+Execution results for index 92: [[0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0]]
+
+Processing index 93:
+
+Computing scores for execution results: [[1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1], [1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1], [1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1]]
+Result counts: Counter({(1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1): 3})
+Result [1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1]: frequency=3, passing_tests=12, score=36
+Result [1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1]: frequency=3, passing_tests=12, score=36
+Result [1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1]: frequency=3, passing_tests=12, score=36
+Scores for index 93: [36, 36, 36]
+Execution results for index 93: [[1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1], [1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1], [1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1]]
+
+Processing index 94:
+
+Computing scores for execution results: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]]
+Result counts: Counter({(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0): 3})
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]: frequency=3, passing_tests=1, score=3
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]: frequency=3, passing_tests=1, score=3
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]: frequency=3, passing_tests=1, score=3
+Scores for index 94: [3, 3, 3]
+Execution results for index 94: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]]
+
+Processing index 95:
+
+Computing scores for execution results: [[0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1], [0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1], [0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1]]
+Result counts: Counter({(0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1): 3})
+Result [0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1]: frequency=3, passing_tests=7, score=21
+Result [0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1]: frequency=3, passing_tests=7, score=21
+Result [0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1]: frequency=3, passing_tests=7, score=21
+Scores for index 95: [21, 21, 21]
+Execution results for index 95: [[0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1], [0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1], [0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1]]
+
+Processing index 96:
+
+Computing scores for execution results: [[1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+Result counts: Counter({(1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0): 2, (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0): 1})
+Result [1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=2, passing_tests=3, score=6
+Result [1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=2, passing_tests=3, score=6
+Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=1, passing_tests=0, score=0
+Scores for index 96: [6, 6, 0]
+Execution results for index 96: [[1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+
+Processing index 97:
+
+Computing scores for execution results: [[1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0], [1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0], [1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0]]
+Result counts: Counter({(1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0): 3})
+Result [1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0]: frequency=3, passing_tests=7, score=21
+Result [1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0]: frequency=3, passing_tests=7, score=21
+Result [1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0]: frequency=3, passing_tests=7, score=21
+Scores for index 97: [21, 21, 21]
+Execution results for index 97: [[1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0], [1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0], [1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0]]
+
+Processing index 98:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0): 3})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0]: frequency=3, passing_tests=10, score=30
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0]: frequency=3, passing_tests=10, score=30
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0]: frequency=3, passing_tests=10, score=30
+Scores for index 98: [30, 30, 30]
+Execution results for index 98: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0]]
+
+Processing index 99:
+
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+Result counts: Counter({(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 3})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=3, passing_tests=15, score=45
+Scores for index 99: [45, 45, 45]
+Execution results for index 99: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
