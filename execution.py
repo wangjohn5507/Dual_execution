@@ -1,4 +1,4 @@
-from src.evaluation import execute_code, is_assertion, ground_truth_test, execute_code_file
+from src.evaluation import execute_code, is_assertion, ground_truth_test, execute_code_file, ground_truth_solution
 import json
 import ast
 import tqdm
@@ -90,6 +90,29 @@ def compute_score(execution_results):
     
     return scores
 
+def compute_test_score(test_results):
+    if not test_results:
+        return []
+        
+    print("\nComputing scores for test cases:", test_results)
+    
+    # Count frequency of each test result
+    result_counts = Counter(tuple(result) for result in test_results)
+    print("Test result counts:", result_counts)
+    
+    # Calculate score for each test case
+    scores = []
+    for result in test_results:
+        passing_solutions = sum(1 for x in result if x == 1)
+        # Get frequency of this test result
+        frequency = result_counts[tuple(result)]
+        # Calculate score: frequency * test result (1 for pass, 0 for fail)
+        score = frequency * passing_solutions
+        print(f"Test result {result}: frequency={frequency}, passing_solutions={passing_solutions}, score={score}")
+        scores.append(score)
+    
+    return scores
+
 def select_best_solutions(solutions, scores):
     if not scores:
         return []
@@ -98,6 +121,15 @@ def select_best_solutions(solutions, scores):
     best_indices = [i for i, score in enumerate(scores) if score == max_score]
     best_solutions = [solutions[i] for i in best_indices]
     return best_solutions
+
+def select_best_tests(test_cases, scores):
+    if not scores:
+        return []
+    
+    max_score = max(scores)
+    best_indices = [i for i, score in enumerate(scores) if score == max_score]
+    best_tests = [test_cases[i] for i in best_indices]
+    return best_tests
 
 def seperate_assertions(test_string):
     test_list = []
@@ -115,6 +147,88 @@ def seperate_assertions(test_string):
     if record:
         test_list.append('assert ' + record)
     return test_list
+
+def evaluate_solutions(execution_results, golden_test_cases, solutions):
+    # Track total solutions and correct solutions
+    chosen_solutions = dict()
+    total_solutions = 0
+    correct_solutions = 0
+    for idx in execution_results:
+        print(f"\nProcessing index {idx}:")
+        scores = compute_score(execution_results[idx])
+        print(f"Scores for index {idx}: {scores}")
+        
+        # Select best solutions
+        best_solutions = select_best_solutions(solutions[idx], scores)
+        print(f"Best solutions for index {idx}: {len(best_solutions)} solutions with score {max(scores)}")
+        
+        # Randomly select one as golden solution
+        if best_solutions:
+            chosen_solution = random.choice(best_solutions)
+            chosen_solutions[idx] = chosen_solution
+            print(f"Selected chosen solution for index {idx}")
+            
+            # Test golden solution with ground-truth test cases
+            standardized_solution = standardize_function_name(chosen_solution)
+            standardized_tests = [standardize_assertion_name(test) for test in golden_test_cases[idx]]
+            print(f"Standardized tests: {standardized_tests}")
+            results = execute_code_file(standardized_solution, standardized_tests)
+            print(f"Golden solution test results: {results}")
+            print(f"Chosen solution: {standardized_solution}")
+            
+            # Count total and correct solutions
+            total_solutions += 1
+            if all(result == 1 for result in results):
+                correct_solutions += 1
+                print(f"Solution {idx} passed all golden test cases!")
+            else:
+                print(f"Solution {idx} failed some golden test cases.")
+    
+    # Calculate and print accuracy for solutions
+    solution_accuracy = (correct_solutions / total_solutions) * 100 if total_solutions > 0 else 0
+    print(f"\nSolution Accuracy: {solution_accuracy:.2f}% ({correct_solutions}/{total_solutions} solutions passed all golden test cases)")
+
+
+def evaluate_tests(test_results, golden_solutions, test_cases):
+    total_solutions = 0
+    correct_solutions = 0
+    chosen_test_dict = {}
+    
+    for idx in test_results:
+        scores = compute_test_score(test_results[idx])
+        print(f"Scores for index {idx}: {scores}")
+        best_tests = select_best_tests(test_cases[idx], scores)
+        print(f"Best test for index {idx}: {best_tests}")
+
+        if best_tests:
+            num = min(len(best_tests), 5)
+            chosen_test = random.sample(best_tests, num)
+            chosen_test_dict[idx] = chosen_test
+
+            standardized_solution = standardize_function_name(golden_solutions[idx])
+            standardized_tests = [standardize_assertion_name(test) for test in chosen_test]
+            print(f"Standardized tests: {standardized_tests}")
+            results = execute_code_file(standardized_solution, standardized_tests)
+            print(f"Results: {results}")
+            print(f"Golden solution: {standardized_solution}")
+            print(f"Chosen test solution: {standardized_tests}")
+
+            total_solutions += 1
+            if all(result == 1 for result in results):
+                correct_solutions += 1
+                print(f"Solution {idx} passed all golden test cases!")
+            else:
+                print(f"Solution {idx} failed some golden test cases.")
+    
+    # Calculate and print accuracy for solutions
+    solution_accuracy = (correct_solutions / total_solutions) * 100 if total_solutions > 0 else 0
+    print(f"\nSolution Accuracy: {solution_accuracy:.2f}% ({correct_solutions}/{total_solutions} solutions passed all golden test cases)")
+
+
+        
+            
+            
+    
 
 if __name__ == '__main__':
     random.seed(42)
@@ -137,67 +251,67 @@ if __name__ == '__main__':
             test_cases[idx] = test_cases.get(idx, []) + tests
     
     # Execute each solution with its corresponding test cases
-    def process_solution(args):
-        idx, solution, test_cases_idx = args
+    # def process_solution(args):
+    #     idx, solution, test_cases_idx = args
+    #     # Standardize function name in solution
+    #     standardized_solution = standardize_function_name(solution)
+    #     # Standardize function name in test cases 
+    #     standardized_tests = [standardize_assertion_name(test) for test in test_cases_idx]
+    #     results = execute_code_file(standardized_solution, standardized_tests)
+    #     return idx, results
+
+    # with cfuts.ThreadPoolExecutor(max_workers=32) as executor:
+    #     tasks = []
+    #     for idx in solutions:
+    #         execution_results[idx] = []
+    #         for solution in solutions[idx]:
+    #             tasks.append((idx, solution, test_cases[idx]))
+        
+    #     for idx, results in tqdm.tqdm(executor.map(process_solution, tasks), total=len(tasks)):
+    #         execution_results[idx].append(results)
+    #     # if idx == 100:
+    #     #     break
+    
+    # # Select best solutions and choose golden solution
+    # # golden_test_cases = {}
+    dataset = 'mbpp'
+    golden_solutions = ground_truth_solution(f'dataset/{dataset}_sanitized_for_code_generation.jsonl')
+    # golden_test_cases = ground_truth_test(f'dataset/{dataset}_sanitized_for_code_generation.jsonl')
+
+    # evaluate_solutions(execution_results, golden_test_cases, solutions)
+
+
+    test_results = dict()
+    def process_test(args):
+        idx, solutions, test_case = args
+        results = []
         # Standardize function name in solution
-        standardized_solution = standardize_function_name(solution)
+        standardized_solutions = [standardize_function_name(solution) for solution in solutions]
         # Standardize function name in test cases 
-        standardized_tests = [standardize_assertion_name(test) for test in test_cases_idx]
-        results = execute_code_file(standardized_solution, standardized_tests)
-        return idx, results
+        standardized_tests = [standardize_assertion_name(test_case)]
+        for standardized_solution in standardized_solutions:
+            results.append(execute_code_file(standardized_solution, standardized_tests)[0])
+        return idx, solutions, results
 
     with cfuts.ThreadPoolExecutor(max_workers=32) as executor:
         tasks = []
-        for idx in solutions:
-            execution_results[idx] = []
-            for solution in solutions[idx]:
-                tasks.append((idx, solution, test_cases[idx]))
+        for idx in test_cases:
+            # Initialize execution_results with empty lists for each test case
+            test_results[idx] = []
+            for test_case in test_cases[idx]:
+                tasks.append((idx, solutions[idx], test_case))
         
-        for idx, results in tqdm.tqdm(executor.map(process_solution, tasks), total=len(tasks)):
-            execution_results[idx].append(results)
-        # if idx == 100:
-        #     break
+        for idx, solutions, results in tqdm.tqdm(executor.map(process_test, tasks), total=len(tasks)):
+            # For each test case, append the execution result to its list
+            # print(idx, results)
+            test_results[idx].append(results)
+
+    evaluate_tests(test_results, golden_solutions, test_cases)
+
     
-    # Select best solutions and choose golden solution
-    golden_solutions = {}
-    dataset = 'mbpp'
-    golden_test_cases = ground_truth_test(f'dataset/{dataset}_sanitized_for_code_generation.jsonl')
+
     
-    # Track total solutions and correct solutions
-    total_solutions = 0
-    correct_solutions = 0
     
-    for idx in execution_results:
-        print(f"\nProcessing index {idx}:")
-        scores = compute_score(execution_results[idx])
-        print(f"Scores for index {idx}: {scores}")
-        
-        # Select best solutions
-        best_solutions = select_best_solutions(solutions[idx], scores)
-        print(f"Best solutions for index {idx}: {len(best_solutions)} solutions with score {max(scores)}")
-        
-        # Randomly select one as golden solution
-        if best_solutions:
-            golden_solution = random.choice(best_solutions)
-            golden_solutions[idx] = golden_solution
-            print(f"Selected golden solution for index {idx}")
-            
-            # Test golden solution with ground-truth test cases
-            standardized_solution = standardize_function_name(golden_solution)
-            standardized_tests = [standardize_assertion_name(test) for test in golden_test_cases[idx]]
-            print(f"Standardized tests: {standardized_tests}")
-            results = execute_code_file(standardized_solution, standardized_tests)
-            print(f"Golden solution test results: {results}")
-            print(f"Golden solution: {golden_solution}")
-            
-            # Count total and correct solutions
-            total_solutions += 1
-            if all(result == 1 for result in results):
-                correct_solutions += 1
-                print(f"Solution {idx} passed all golden test cases!")
-            else:
-                print(f"Solution {idx} failed some golden test cases.")
     
-    # Calculate and print accuracy
-    accuracy = (correct_solutions / total_solutions) * 100 if total_solutions > 0 else 0
-    print(f"\nAccuracy: {accuracy:.2f}% ({correct_solutions}/{total_solutions} solutions passed all golden test cases)")
+    
+  

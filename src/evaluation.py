@@ -118,6 +118,13 @@ def ground_truth_test(path: str):
         test_cases.append(test_case)
     return test_cases
 
+def ground_truth_solution(path: str):
+    data = list(map(json.loads, open(path)))
+    solutions = []
+    for idx, data in enumerate(data):
+        solutions.append(data['prompt'] + data['canonical_solution'].lstrip())
+    return solutions
+
 if __name__ == '__main__':
     code = 'print("Hello, World!")'
     test_cases = ['print("Hello, World!")', 'print("Hello, World!")']
