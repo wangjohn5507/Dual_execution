@@ -99,9 +99,28 @@ def select_best_solutions(solutions, scores):
     best_solutions = [solutions[i] for i in best_indices]
     return best_solutions
 
+def seperate_assertions(test_string):
+    test_list = []
+    tests = [test.strip() for test in test_string.split('\n') if test.strip() != '']
+    record = ''
+    for test in tests:
+        if test.startswith('assert'):
+            if record:
+                test_list.append(record + '\n' + test)
+                record = ''
+            else:
+                test_list.append(test)
+        else:
+            record += '\n' + test
+    if record:
+        test_list.append('assert ' + record)
+    return test_list
+
 if __name__ == '__main__':
     random.seed(42)
     mutation_type_list = ['original', 'active_to_passive', 'declarative_to_interrogative', 'verb_to_similar_verb', 'lowercase_to_uppercase', 'add_precision', 'rephrase_sentence']
+    # mutation_type_list = ['original', 'active_to_passive', 'declarative_to_interrogative']
+
     solutions = dict()
     test_cases = dict()
     execution_results = dict()  # Dictionary to store execution results
@@ -114,7 +133,7 @@ if __name__ == '__main__':
     for mutation_type in mutation_type_list:
         generated_test = list(map(json.loads, open(f'generation_output/test_{mutation_type}.jsonl')))
         for idx, test in enumerate(generated_test):
-            tests = [test for test in test['response_code'].split('\n') if test != '' and is_assertion(test)]
+            tests = seperate_assertions(test['response_code'])
             test_cases[idx] = test_cases.get(idx, []) + tests
     
     # Execute each solution with its corresponding test cases
