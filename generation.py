@@ -8,7 +8,7 @@ from src import model, utils
 def form_messages(problems, is_test_case=False):
     return [
         [
-            {'role': 'system', 'content': 'Generate the python code solution based on the context. Return the function with import packages if needed. Do not include any test cases or usage.' if not is_test_case else 'Complete the assertions with at least 5 test cases.'},
+            {'role': 'system', 'content': 'Generate the python code solution based on the context. Return the function with import packages if needed. Do not include any test cases or usage.' if not is_test_case else 'Complete the assertions with at least 5 test cases. Just return assertions with input and output.'},
             {'role': 'user', 'content': problem}
         ]
         for problem in problems
@@ -50,7 +50,7 @@ if __name__ == '__main__':
     is_test_case = True
     type = 'code' if not is_test_case else 'test'
     dataset = 'mbpp'
-    mutation_type = 'verb_to_similar_verb'
+    mutation_type = 'rephrase_sentence'
     model_name = 'gpt-3.5-turbo'
     mutation_file = f'mutation_output/{mutation_type}_{model_name}.jsonl'
     template_file = f'template_output/prompts_with_templates_{type}_{dataset}.jsonl'
@@ -76,7 +76,7 @@ if __name__ == '__main__':
     ]
 
     messages = form_messages(problems, is_test_case)
-    run(messages[:100])
+    run(messages)
 
 
 

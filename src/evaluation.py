@@ -1,6 +1,7 @@
 import subprocess
 import re
 from typing import List, Dict, Any
+import json
 
 def execute_code(code, test_cases):
     full_test = '''{code}\n\n{test_case}'''
@@ -65,6 +66,15 @@ def is_assertion(text: str) -> bool:
     
     return False
 
+
+def ground_truth_test(path: str):
+    data = list(map(json.loads, open(path)))
+    test_cases = []
+    for idx, data in enumerate(data):
+        test_string = data['test']
+        test_case = [test for test in test_string.split('\n') if test != '' and is_assertion(test)]
+        test_cases.append(test_case)
+    return test_cases
 
 if __name__ == '__main__':
     code = 'print("Hello, World!")'
