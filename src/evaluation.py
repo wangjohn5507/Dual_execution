@@ -22,6 +22,48 @@ def execute_code(code, test_cases):
             results.append(0)
     return results
 
+def execute_code_file(code, test_cases):
+    import tempfile
+    import os
+    import uuid
+    
+    results = []
+    for test_case in test_cases:
+        # Create temporary file with unique name using uuid
+        unique_id = str(uuid.uuid4())
+        temp_dir = tempfile.gettempdir()
+        temp_file = os.path.join(temp_dir, f'test_{unique_id}.py')
+        
+        try:
+            # Write to temp file
+            with open(temp_file, 'w') as f:
+                full_test = f"{code}\n\n{test_case}"
+                f.write(full_test)
+
+            # Run the temporary file
+            process = subprocess.run(['python3', temp_file], 
+                                  capture_output=True,
+                                  timeout=5)
+            
+            # Check if there was an assertion error
+            if process.stderr or b'AssertionError' in process.stderr:
+                results.append(0)
+            else:
+                results.append(1)
+                
+        except Exception as e:
+            results.append(0)
+            
+        finally:
+            # Clean up temp file if it exists
+            try:
+                if os.path.exists(temp_file):
+                    os.unlink(temp_file)
+            except:
+                pass
+            
+    return results
+
 
 
 def is_assertion(text: str) -> bool:

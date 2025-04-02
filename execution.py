@@ -1,4 +1,4 @@
-from src.evaluation import execute_code, is_assertion, ground_truth_test
+from src.evaluation import execute_code, is_assertion, ground_truth_test, execute_code_file
 import json
 import ast
 import tqdm
@@ -119,7 +119,7 @@ def seperate_assertions(test_string):
 if __name__ == '__main__':
     random.seed(42)
     mutation_type_list = ['original', 'active_to_passive', 'declarative_to_interrogative', 'verb_to_similar_verb', 'lowercase_to_uppercase', 'add_precision', 'rephrase_sentence']
-    # mutation_type_list = ['original', 'active_to_passive', 'declarative_to_interrogative']
+    mutation_type_list = ['original', 'active_to_passive', 'declarative_to_interrogative']
 
     solutions = dict()
     test_cases = dict()
@@ -143,7 +143,7 @@ if __name__ == '__main__':
         standardized_solution = standardize_function_name(solution)
         # Standardize function name in test cases 
         standardized_tests = [standardize_assertion_name(test) for test in test_cases_idx]
-        results = execute_code(standardized_solution, standardized_tests)
+        results = execute_code_file(standardized_solution, standardized_tests)
         return idx, results
 
     with cfuts.ThreadPoolExecutor(max_workers=32) as executor:
@@ -186,7 +186,7 @@ if __name__ == '__main__':
             standardized_solution = standardize_function_name(golden_solution)
             standardized_tests = [standardize_assertion_name(test) for test in golden_test_cases[idx]]
             print(f"Standardized tests: {standardized_tests}")
-            results = execute_code(standardized_solution, standardized_tests)
+            results = execute_code_file(standardized_solution, standardized_tests)
             print(f"Golden solution test results: {results}")
             print(f"Golden solution: {golden_solution}")
             

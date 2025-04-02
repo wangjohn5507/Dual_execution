@@ -1,13 +1,13 @@
 
 Processing index 0:
 
-Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
-Result counts: Counter({(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0): 2, (1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1): 1})
-Result [1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1]: frequency=1, passing_tests=12, score=12
+Computing scores for execution results: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+Result counts: Counter({(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0): 2, (1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 1})
+Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=1, passing_tests=15, score=15
 Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=2, passing_tests=0, score=0
 Result [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=2, passing_tests=0, score=0
-Scores for index 0: [12, 0, 0]
-Best solutions for index 0: 1 solutions with score 12
+Scores for index 0: [15, 0, 0]
+Best solutions for index 0: 1 solutions with score 15
 Selected golden solution for index 0
 Standardized tests: ['assert set(func((3, 4, 5, 6),(5, 7, 4, 10))) == set((4, 5))', 'assert set(func((1, 2, 3, 4),(5, 4, 3, 7))) == set((3, 4))', 'assert set(func((11, 12, 14, 13),(17, 15, 14, 13))) == set((13, 14))']
 Golden solution test results: [1, 1, 1]
@@ -5644,12 +5644,12 @@ Solution 269 passed all golden test cases!
 
 Processing index 270:
 
-Computing scores for execution results: [[1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1], [1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
-Result counts: Counter({(1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0): 2, (0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1): 1})
+Computing scores for execution results: [[1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1], [1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+Result counts: Counter({(1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0): 2, (0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1): 1})
 Result [1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=2, passing_tests=5, score=10
-Result [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1]: frequency=1, passing_tests=4, score=4
+Result [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1]: frequency=1, passing_tests=3, score=3
 Result [1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: frequency=2, passing_tests=5, score=10
-Scores for index 270: [10, 4, 10]
+Scores for index 270: [10, 3, 10]
 Best solutions for index 270: 2 solutions with score 10
 Selected golden solution for index 270
 Standardized tests: ['assert func((3, 4, 5, 6),(5, 7, 4, 10) ) == (3, 4, 5, 6, 7, 10)', 'assert func((1, 2, 3, 4),(3, 4, 5, 6) ) == (1, 2, 3, 4, 5, 6)', 'assert func((11, 12, 13, 14),(13, 15, 16, 17) ) == (11, 12, 13, 14, 15, 16, 17)']
@@ -5947,13 +5947,13 @@ Solution 284 passed all golden test cases!
 
 Processing index 285:
 
-Computing scores for execution results: [[1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1], [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1]]
-Result counts: Counter({(1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): 1, (1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1): 1, (1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1): 1})
-Result [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: frequency=1, passing_tests=14, score=14
-Result [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1]: frequency=1, passing_tests=13, score=13
-Result [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1]: frequency=1, passing_tests=12, score=12
-Scores for index 285: [14, 13, 12]
-Best solutions for index 285: 1 solutions with score 14
+Computing scores for execution results: [[1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1], [1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1], [1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1]]
+Result counts: Counter({(1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1): 2, (1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1): 1})
+Result [1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1]: frequency=2, passing_tests=12, score=24
+Result [1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1]: frequency=2, passing_tests=12, score=24
+Result [1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1]: frequency=1, passing_tests=11, score=11
+Scores for index 285: [24, 24, 11]
+Best solutions for index 285: 2 solutions with score 24
 Selected golden solution for index 285
 Standardized tests: ['assert func((3, 4, 5, 6), (5, 7, 4, 10)) == (3, 6, 7, 10)', 'assert func((1, 2, 3, 4), (7, 2, 3, 9)) == (1, 4, 7, 9)', 'assert func((21, 11, 25, 26), (26, 34, 21, 36)) == (34, 36, 11, 25)']
 Golden solution test results: [1, 1, 1]
