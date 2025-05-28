@@ -1,0 +1,974 @@
+{"task_id": 0, "original": "Write a function to find the minimum cost path to reach (m, n) from (0, 0) for the given cost matrix cost[][] and a position (m, n) in cost[][].", "mutation": "findMinimumCostPath"}
+{"task_id": 1, "original": "Write a function to find the similar elements from the given two tuple lists.", "mutation": "find_similar_elements"}
+{"task_id": 2, "original": "Write a python function to identify non-prime numbers.", "mutation": "identify_non_prime_numbers"}
+{"task_id": 3, "original": "Write a function to find the largest integers from a given list of numbers using heap queue algorithm.", "mutation": "find_largest_integers_using_heap_queue"}
+{"task_id": 4, "original": "Write a function to find the number of ways to fill it with 2 x 1 dominoes for the given 3 x n board.", "mutation": "findNumberOfWaysToFillBoardWithDominoes"}
+{"task_id": 5, "original": "Write a python function to check whether the two numbers differ at one bit position only or not.", "mutation": "check_one_bit_difference"}
+{"task_id": 6, "original": "Write a function to find all words which are at least 4 characters long in a string by using regex.", "mutation": "findLongWords"}
+{"task_id": 7, "original": "Write a function to find squares of individual elements in a list using lambda function.", "mutation": "find_squares_using_lambda"}
+{"task_id": 8, "original": "Write a python function to find the minimum number of rotations required to get the same string.", "mutation": "find_min_rotations_needed"}
+{"task_id": 9, "original": "Write a function to get the n smallest items from a dataset.", "mutation": "getNSmallestItems"}
+{"task_id": 10, "original": "Write a python function to remove first and last occurrence of a given character from the string.", "mutation": "remove_first_last_occurrence"}
+{"task_id": 11, "original": "Write a function to sort a given matrix in ascending order according to the sum of its rows.", "mutation": "sortMatrixByRowSumAscending"}
+{"task_id": 12, "original": "Write a function to count the most common words in a dictionary.", "mutation": "countMostCommonWords"}
+{"task_id": 13, "original": "Write a python function to find the volume of a triangular prism.", "mutation": "calculate_triangular_prism_volume"}
+{"task_id": 14, "original": "Write a function to split a string at lowercase letters.", "mutation": "splitAtLowercaseLetters"}
+{"task_id": 15, "original": "Write a function to find sequences of lowercase letters joined with an underscore.", "mutation": "find_lowercase_sequences_with_underscore"}
+{"task_id": 16, "original": "Write a function to find the perimeter of a square.", "mutation": "calculateSquarePerimeter"}
+{"task_id": 17, "original": "Write a function to remove characters from the first string which are present in the second string.", "mutation": "removeCharactersFromString"}
+{"task_id": 18, "original": "Write a function to find whether a given array of integers contains any duplicate element.", "mutation": "findDuplicates"}
+{"task_id": 19, "original": "Write a function to check if the given number is woodball or not.", "mutation": "isWoodball"}
+{"task_id": 20, "original": "Write a function to find m number of multiples of n.", "mutation": "findMultiples"}
+{"task_id": 21, "original": "Write a function to find the first duplicate element in a given array of integers.", "mutation": "findFirstDuplicate"}
+{"task_id": 22, "original": "Write a python function to find the maximum sum of elements of list in a list of lists.", "mutation": "find_max_sum_of_elements_in_list_of_lists"}
+{"task_id": 23, "original": "Write a function to convert the given binary number to its decimal equivalent.", "mutation": "convertBinaryToDecimal"}
+{"task_id": 24, "original": "Write a python function to find the product of non-repeated elements in a given array.", "mutation": "find_product_of_non_repeated_elements"}
+{"task_id": 25, "original": "Write a function to check if the given tuple list has all k elements.", "mutation": "checkIfTupleListHasKElements"}
+{"task_id": 26, "original": "Write a python function to remove all digits from a list of strings.", "mutation": "remove_digits_from_list"}
+{"task_id": 27, "original": "Write a python function to find binomial co-efficient.", "mutation": "find_binomial_coefficient"}
+{"task_id": 28, "original": "Write a python function to find the element occurring odd number of times.", "mutation": "find_odd_occurrence"}
+{"task_id": 29, "original": "Write a python function to count all the substrings starting and ending with same characters.", "mutation": "count_same_char_substrings"}
+{"task_id": 30, "original": "Write a function to find the top k integers that occur most frequently from given lists of sorted and distinct integers using heap queue algorithm.", "mutation": "find_top_k_frequent_integers_using_heap"}
+{"task_id": 31, "original": "Write a python function to find the largest prime factor of a given number.", "mutation": "find_largest_prime_factor"}
+{"task_id": 32, "original": "Write a python function to convert a decimal number to binary number.", "mutation": "convert_decimal_to_binary"}
+{"task_id": 33, "original": "Write a python function to find the missing number in a sorted array.", "mutation": "find_missing_number_sorted_array"}
+{"task_id": 34, "original": "Write a function to find the n-th rectangular number.", "mutation": "findNthRectangularNumber"}
+{"task_id": 35, "original": "Write a python function to find the nth digit in the proper fraction of two given numbers.", "mutation": "find_nth_digit_in_proper_fraction"}
+{"task_id": 36, "original": "Write a function to sort a given mixed list of integers and strings.", "mutation": "sortMixedList"}
+{"task_id": 37, "original": "Write a function to find the division of first even and odd number of a given list.", "mutation": "find_division_of_first_even_and_odd_numbers"}
+{"task_id": 38, "original": "Write a function to check if the letters of a given string can be rearranged so that two characters that are adjacent to each other are different.", "mutation": "checkAdjacentCharactersDifferent"}
+{"task_id": 39, "original": "Write a function to find frequency of the elements in a given list of lists using collections module.", "mutation": "find_frequency_of_elements_in_list_of_lists"}
+{"task_id": 40, "original": "Write a function to filter even numbers using lambda function.", "mutation": "filter_even_numbers"}
+{"task_id": 41, "original": "Write a python function to find the sum of repeated elements in a given array.", "mutation": "find_sum_of_repeated_elements"}
+{"task_id": 42, "original": "Write a function to find sequences of lowercase letters joined with an underscore using regex.", "mutation": "findLowercaseSequencesWithUnderscore"}
+{"task_id": 43, "original": "Write a function that matches a word at the beginning of a string.", "mutation": "matchWordAtBeginningOfString"}
+{"task_id": 44, "original": "Write a function to find the gcd of the given array elements.", "mutation": "findGCDFromArrayElements"}
+{"task_id": 45, "original": "Write a python function to determine whether all the numbers are different from each other are not.", "mutation": "check_unique_numbers"}
+{"task_id": 46, "original": "Write a python function to find the last digit when factorial of a divides factorial of b.", "mutation": "find_last_digit_factorial_division"}
+{"task_id": 47, "original": "Write a python function to set all odd bits of a given number.", "mutation": "set_odd_bits"}
+{"task_id": 48, "original": "Write a function to extract every first or specified element from a given two-dimensional list.", "mutation": "extractFirstElement"}
+{"task_id": 49, "original": "Write a function to find the list with minimum length using lambda function.", "mutation": "find_min_length_list"}
+{"task_id": 50, "original": "Write a function to print check if the triangle is equilateral or not.", "mutation": "checkEquilateralTriangle"}
+{"task_id": 51, "original": "Write a function to caluclate area of a parallelogram.", "mutation": "calculateParallelogramArea"}
+{"task_id": 52, "original": "Write a python function to check whether the first and last characters of a given string are equal or not.", "mutation": "check_first_last_equal"}
+{"task_id": 53, "original": "Write a function to sort the given array by using counting sort.", "mutation": "sortArrayUsingCountingSort"}
+{"task_id": 54, "original": "Write a function to find t-nth term of geometric series.", "mutation": "findGeometricSeriesTerm"}
+{"task_id": 55, "original": "Write a python function to check if a given number is one less than twice its reverse.", "mutation": "check_twice_reverse_minus_one"}
+{"task_id": 56, "original": "Write a python function to find the largest number that can be formed with the given digits.", "mutation": "find_largest_number"}
+{"task_id": 57, "original": "Write a python function to check whether the given two integers have opposite sign or not.", "mutation": "check_opposite_signs"}
+{"task_id": 58, "original": "Write a function to find the nth octagonal number.", "mutation": "findNthOctagonalNumber"}
+{"task_id": 59, "original": "Write a function to find the maximum length of the subsequence with difference between adjacent elements for the given array.", "mutation": "findMaxSubsequenceLengthWithAdjacentDifference"}
+{"task_id": 60, "original": "Write a python function to count number of substrings with the sum of digits equal to their length.", "mutation": "count_substrings_with_sum_equal_length"}
+{"task_id": 61, "original": "Write a python function to find smallest number in a list.", "mutation": "find_smallest_number_in_list"}
+{"task_id": 62, "original": "Write a function to find the maximum difference between available pairs in the given tuple list.", "mutation": "find_max_difference_between_pairs"}
+{"task_id": 63, "original": "Write a function to sort a list of tuples using lambda.", "mutation": "sort_tuples_using_lambda"}
+{"task_id": 64, "original": "Write a function of recursion list sum.", "mutation": "recursiveListSum"}
+{"task_id": 65, "original": "Write a python function to count positive numbers in a list.", "mutation": "count_positive_numbers"}
+{"task_id": 66, "original": "Write a function to find the number of ways to partition a set of bell numbers.", "mutation": "findNumberOfWaysToPartitionBellNumbers"}
+{"task_id": 67, "original": "Write a python function to check whether the given array is monotonic or not.", "mutation": "check_monotonic_array"}
+{"task_id": 68, "original": "Write a function to check whether a list contains the given sublist or not.", "mutation": "containsSublist"}
+{"task_id": 69, "original": "Write a function to find whether all the given tuples have equal length or not.", "mutation": "checkEqualTupleLengths"}
+{"task_id": 70, "original": "Write a function to sort a list of elements using comb sort.", "mutation": "sortListUsingCombSort"}
+{"task_id": 71, "original": "Write a python function to check whether the given number can be represented as difference of two squares or not.", "mutation": "check_difference_of_squares"}
+{"task_id": 72, "original": "Write a function to split the given string with multiple delimiters by using regex.", "mutation": "splitStringWithDelimitersRegex"}
+{"task_id": 73, "original": "Write a function to check whether it follows the sequence given in the patterns array.", "mutation": "checkPatternSequence"}
+{"task_id": 74, "original": "Write a function to find tuples which have all elements divisible by k from the given list of tuples.", "mutation": "find_tuples_divisible_by_k"}
+{"task_id": 75, "original": "Write a python function to count the number of squares in a rectangle.", "mutation": "count_squares_in_rectangle"}
+{"task_id": 76, "original": "Write a python function to find the difference between sum of even and odd digits.", "mutation": "find_difference_between_even_and_odd_digits_sum"}
+{"task_id": 77, "original": "Write a python function to find number of integers with odd number of set bits.", "mutation": "count_odd_set_bits_numbers"}
+{"task_id": 78, "original": "Write a python function to check whether the length of the word is odd or not.", "mutation": "is_odd_length_word"}
+{"task_id": 79, "original": "Write a function to find the nth tetrahedral number.", "mutation": "findNthTetrahedralNumber"}
+{"task_id": 80, "original": "Write a function to zip the two given tuples.", "mutation": "zip_tuples"}
+{"task_id": 81, "original": "Write a function to find the volume of a sphere.", "mutation": "calculateSphereVolume"}
+{"task_id": 82, "original": "Write a python function to find the character made by adding all the characters of the given string.", "mutation": "find_combined_character"}
+{"task_id": 83, "original": "Write a function to find the n-th number in newman conway sequence.", "mutation": "findNthNewmanConwayNumber"}
+{"task_id": 84, "original": "Write a function to find the surface area of a sphere.", "mutation": "calculateSphereSurfaceArea"}
+{"task_id": 85, "original": "Write a function to find nth centered hexagonal number.", "mutation": "findNthCenteredHexagonalNumber"}
+{"task_id": 86, "original": "Write a function to merge three dictionaries into a single expression.", "mutation": "merge_three_dicts"}
+{"task_id": 87, "original": "Write a function to get the frequency of the elements in a list.", "mutation": "getFrequencyOfElements"}
+{"task_id": 88, "original": "Write a function to find the closest smaller number than n.", "mutation": "findClosestSmallerNumber"}
+{"task_id": 89, "original": "Write a python function to find the length of the longest word.", "mutation": "find_longest_word_length"}
+{"task_id": 90, "original": "Write a function to check if a substring is present in a given list of string values.", "mutation": "checkSubstringInList"}
+{"task_id": 91, "original": "Write a function to check whether the given number is undulating or not.", "mutation": "isUndulatingNumber"}
+{"task_id": 92, "original": "Write a function to calculate the value of 'a' to the power 'b'.", "mutation": "calculatePower"}
+{"task_id": 93, "original": "Write a function to extract the index minimum value record from the given tuples.", "mutation": "extractIndexMinValueRecord"}
+{"task_id": 94, "original": "Write a python function to find the minimum length of sublist.", "mutation": "find_min_sublist_length"}
+{"task_id": 95, "original": "Write a python function to find the number of divisors of a given integer.", "mutation": "find_number_of_divisors"}
+{"task_id": 96, "original": "Write a function to find frequency count of list of lists.", "mutation": "findFrequencyCountOfListOfLists"}
+{"task_id": 97, "original": "Write a function to multiply all the numbers in a list and divide with the length of the list.", "mutation": "multiplyAndDivideAverage"}
+{"task_id": 98, "original": "Write a function to convert the given decimal number to its binary equivalent.", "mutation": "convertDecimalToBinary"}
+{"task_id": 99, "original": "Write a function to find the next smallest palindrome of a specified number.", "mutation": "findNextSmallestPalindrome"}
+{"task_id": 100, "original": "Write a function to find the kth element in the given array.", "mutation": "findKthElement"}
+{"task_id": 101, "original": "Write a function to convert snake case string to camel case string.", "mutation": "convertSnakeToCamelCase"}
+{"task_id": 102, "original": "Write a function to find eulerian number a(n, m).", "mutation": "findEulerianNumber"}
+{"task_id": 103, "original": "Write a function to sort each sublist of strings in a given list of lists using lambda function.", "mutation": "sort_sublists_strings_using_lambda"}
+{"task_id": 104, "original": "Write a python function to count true booleans in the given list.", "mutation": "count_true_booleans"}
+{"task_id": 105, "original": "Write a function to add the given list to the given tuples.", "mutation": "addListToTuples"}
+{"task_id": 106, "original": "Write a python function to count hexadecimal numbers for a given range.", "mutation": "count_hexadecimal_numbers_in_range"}
+{"task_id": 107, "original": "Write a function to merge multiple sorted inputs into a single sorted iterator using heap queue algorithm.", "mutation": "merge_sorted_inputs_using_heap_queue"}
+{"task_id": 108, "original": "Write a python function to find the count of rotations of a binary string with odd value.", "mutation": "count_rotations_of_odd_binary_string"}
+{"task_id": 109, "original": "Write a function to extract the ranges that are missing from the given list with the given start range and end range values.", "mutation": "extractMissingRanges"}
+{"task_id": 110, "original": "Write a function to find common elements in given nested lists. * list item * list item * list item * list item", "mutation": "findCommonElementsInNestedLists"}
+{"task_id": 111, "original": "Write a python function to find the perimeter of a cylinder.", "mutation": "calculate_cylinder_perimeter"}
+{"task_id": 112, "original": "Write a function to check if a string represents an integer or not.", "mutation": "isInteger()"}
+{"task_id": 113, "original": "Write a function to assign frequency to each tuple in the given tuple list.", "mutation": "assignFrequencyToTuples"}
+{"task_id": 114, "original": "Write a function to check whether all dictionaries in a list are empty or not.", "mutation": "check_all_dicts_empty"}
+{"task_id": 115, "original": "Write a function to convert a given tuple of positive integers into an integer.", "mutation": "convertTupleToInt"}
+{"task_id": 116, "original": "Write a function to convert all possible convertible elements in the list to float.", "mutation": "convertToFloatList"}
+{"task_id": 117, "original": "Write a function to convert a string to a list.", "mutation": "convertStringToList"}
+{"task_id": 118, "original": "Write a python function to find the element that appears only once in a sorted array.", "mutation": "find_single_element"}
+{"task_id": 119, "original": "Write a function to find the maximum product from the pairs of tuples within a given list.", "mutation": "find_max_product_from_pairs"}
+{"task_id": 120, "original": "Write a function to find the triplet with sum of the given array", "mutation": "findTripletWithSum"}
+{"task_id": 121, "original": "Write a function to find n\u2019th smart number.", "mutation": "findNthSmartNumber"}
+{"task_id": 122, "original": "Write a function to sum all amicable numbers from 1 to a specified number.", "mutation": "sumAmicableNumbers"}
+{"task_id": 123, "original": "Write a function to get the angle of a complex number.", "mutation": "getAngleOfComplexNumber"}
+{"task_id": 124, "original": "Write a function to find the maximum difference between the number of 0s and number of 1s in any sub-string of the given binary string.", "mutation": "findMaxDifferenceZerosOnesSubstring"}
+{"task_id": 125, "original": "Write a python function to find the sum of common divisors of two given numbers.", "mutation": "find_common_divisor_sum"}
+{"task_id": 126, "original": "Write a function to multiply two integers without using the * operator in python.", "mutation": "multiply_without_operator"}
+{"task_id": 127, "original": "Write a function to shortlist words that are longer than n from a given list of words.", "mutation": "shortlistWordsLongerThanN"}
+{"task_id": 128, "original": "Write a function to calculate magic square.", "mutation": "calculateMagicSquare"}
+{"task_id": 129, "original": "Write a function to find the item with maximum frequency in a given list.", "mutation": "findMaxFrequencyItem"}
+{"task_id": 130, "original": "Write a python function to reverse only the vowels of a given string.", "mutation": "reverse_vowels"}
+{"task_id": 131, "original": "Write a function to convert tuple to a string.", "mutation": "convertTupleToString"}
+{"task_id": 132, "original": "Write a function to calculate the sum of the negative numbers of a given list of numbers using lambda function.", "mutation": "calculate_sum_of_negative_numbers"}
+{"task_id": 133, "original": "Write a python function to check whether the last element of given array is even or odd after performing an operation p times.", "mutation": "check_last_element_even_or_odd_after_p_operations"}
+{"task_id": 134, "original": "Write a function to find the nth hexagonal number.", "mutation": "findNthHexagonalNumber"}
+{"task_id": 135, "original": "Write a function to calculate electricity bill.", "mutation": "calculateElectricityBill"}
+{"task_id": 136, "original": "Write a function to find the ration of zeroes in an array of integers.", "mutation": "findZeroesRatio"}
+{"task_id": 137, "original": "Write a python function to check whether the given number can be represented as sum of non-zero powers of 2 or not.", "mutation": "check_power_of_2_representation"}
+{"task_id": 138, "original": "Write a function to find the circumference of a circle.", "mutation": "calculateCircumference"}
+{"task_id": 139, "original": "Write a function to extract elements that occur singly in the given tuple list.", "mutation": "extractSinglyOccurringElements"}
+{"task_id": 140, "original": "Write a function to sort a list of elements using pancake sort.", "mutation": "pancakeSort"}
+{"task_id": 141, "original": "Write a function to count the same pair in three given lists.", "mutation": "countSamePairInThreeLists"}
+{"task_id": 142, "original": "Write a function to find number of lists present in the given tuple.", "mutation": "count_lists_in_tuple"}
+{"task_id": 143, "original": "Write a python function to find the sum of absolute differences in all pairs of the given array.", "mutation": "find_sum_of_absolute_differences"}
+{"task_id": 144, "original": "Write a python function to find the maximum difference between any two elements in a given array.", "mutation": "find_max_difference"}
+{"task_id": 145, "original": "Write a function to find the ascii value of total characters in a string.", "mutation": "findAsciiValueOfStringCharacters"}
+{"task_id": 146, "original": "Write a function to find the maximum total path sum in the given triangle.", "mutation": "findMaxTotalPathSumTriangle"}
+{"task_id": 147, "original": "Write a function to divide a number into two parts such that the sum of digits is maximum.", "mutation": "divideNumberMaxSumDigits"}
+{"task_id": 148, "original": "Write a function to find the longest subsequence such that the difference between adjacents is one for the given array.", "mutation": "findLongestConsecutiveSubsequence"}
+{"task_id": 149, "original": "Write a python function to find whether the given number is present in the infinite sequence or not.", "mutation": "is_infinite_sequence_contains_number"}
+{"task_id": 150, "original": "Write a python function to check whether the given number is co-prime or not.", "mutation": "is_coprime"}
+{"task_id": 151, "original": "Write a function to sort the given array by using merge sort.", "mutation": "sortArrayUsingMergeSort"}
+{"task_id": 152, "original": "Write a function to find the vertex of a parabola.", "mutation": "findVertexOfParabola"}
+{"task_id": 153, "original": "Write a function to extract every specified element from a given two dimensional list.", "mutation": "extractElementsFrom2DList"}
+{"task_id": 154, "original": "Write a python function to toggle all even bits of a given number.", "mutation": "toggle_even_bits"}
+{"task_id": 155, "original": "Write a function to convert a tuple of string values to a tuple of integer values.", "mutation": "convert_tuple_strings_to_integers"}
+{"task_id": 156, "original": "Write a function to reflect the run-length encoding from a list.", "mutation": "reflect_run_length_encoding"}
+{"task_id": 157, "original": "Write a python function to find k number of operations required to make all elements equal.", "mutation": "find_operations_to_make_equal"}
+{"task_id": 158, "original": "Write a function to print the season for the given month and day.", "mutation": "printSeasonForMonthAndDay"}
+{"task_id": 159, "original": "Write a function to find x and y that satisfies ax + by = n.", "mutation": "findXYGivenABN"}
+{"task_id": 160, "original": "Write a function to remove all elements from a given list present in another list.", "mutation": "removeElementsFromList"}
+{"task_id": 161, "original": "Write a function to calculate the sum of the positive integers of n+(n-2)+(n-4)... (until n-x =< 0).", "mutation": "calculateSumOfPositiveIntegers"}
+{"task_id": 162, "original": "Write a function to calculate the area of a regular polygon.", "mutation": "calculateAreaOfRegularPolygon"}
+{"task_id": 163, "original": "Write a python function to check whether the sum of divisors are same or not.", "mutation": "check_sum_of_divisors"}
+{"task_id": 164, "original": "Write a python function to count characters at same position in a given string (lower and uppercase characters) as in english alphabet.", "mutation": "count_same_position_characters"}
+{"task_id": 165, "original": "Write a python function to count the pairs with xor as an even number.", "mutation": "count_pairs_with_even_xor"}
+{"task_id": 166, "original": "Write a python function to find smallest power of 2 greater than or equal to n.", "mutation": "find_smallest_power_of_2_greater_than_or_equal_to_n"}
+{"task_id": 167, "original": "Write a python function to find the frequency of a number in a given array.", "mutation": "find_frequency_of_number"}
+{"task_id": 168, "original": "Write a function to calculate the nth pell number.", "mutation": "calculateNthPellNumber"}
+{"task_id": 169, "original": "Write a function to find sum of the numbers in a list between the indices of a specified range.", "mutation": "findSumInRange"}
+{"task_id": 170, "original": "Write a function to find the perimeter of a pentagon.", "mutation": "calculatePentagonPerimeter"}
+{"task_id": 171, "original": "Write a function to find the occurence of characters 'std' in the given string 1. list item 1. list item 1. list item 2. list item 2. list item 2. list item", "mutation": "findOccurrenceOfSTD"}
+{"task_id": 172, "original": "Write a function to remove everything except alphanumeric characters from a string.", "mutation": "removeNonAlphanumericCharacters"}
+{"task_id": 173, "original": "Write a function to group a sequence of key-value pairs into a dictionary of lists.", "mutation": "group_key_value_pairs_into_dictionary_lists"}
+{"task_id": 174, "original": "Write a function to verify validity of a string of parentheses.", "mutation": "verifyParenthesesValidity"}
+{"task_id": 175, "original": "Write a function to find the perimeter of a triangle.", "mutation": "calculateTrianglePerimeter"}
+{"task_id": 176, "original": "Write a python function to find two distinct numbers such that their lcm lies within the given range.", "mutation": "find_numbers_with_lcm_in_range"}
+{"task_id": 177, "original": "Write a function to search some literals strings in a string.", "mutation": "searchLiteralsInString"}
+{"task_id": 178, "original": "Write a function to find if the given number is a keith number or not.", "mutation": "isKeithNumber"}
+{"task_id": 179, "original": "Write a function to calculate distance between two points using latitude and longitude.", "mutation": "calculateDistanceBetweenPoints"}
+{"task_id": 180, "original": "Write a function to find the longest common prefix in the given set of strings.", "mutation": "findLongestCommonPrefix"}
+{"task_id": 181, "original": "Write a function to find uppercase, lowercase, special character and numeric values using regex.", "mutation": "findCharacterTypes"}
+{"task_id": 182, "original": "Write a function to count all the distinct pairs having a difference of k in any array.", "mutation": "countDistinctPairsWithDifferenceK"}
+{"task_id": 183, "original": "Write a function to find all the values in a list that are greater than a specified number.", "mutation": "findValuesGreaterThan"}
+{"task_id": 184, "original": "Write a function to find the focus of a parabola.", "mutation": "findParabolaFocus"}
+{"task_id": 185, "original": "Write a function to search some literals strings in a string by using regex.", "mutation": "searchLiteralsInStringUsingRegex"}
+{"task_id": 186, "original": "Write a function to find the longest common subsequence for the given two sequences.", "mutation": "findLongestCommonSubsequence"}
+{"task_id": 187, "original": "Write a python function to check whether the given number can be represented by product of two squares or not.", "mutation": "check_product_of_squares"}
+{"task_id": 188, "original": "Write a python function to find the first missing positive number.", "mutation": "find_first_missing_positive_number"}
+{"task_id": 189, "original": "Write a python function to count the number of integral co-ordinates that lie inside a square.", "mutation": "count_integral_coordinates_in_square"}
+{"task_id": 190, "original": "Write a function to check whether the given month name contains 30 days or not.", "mutation": "checkMonthFor30Days"}
+{"task_id": 191, "original": "Write a python function to check whether a string has atleast one letter and one number.", "mutation": "check_string_has_letter_and_number"}
+{"task_id": 192, "original": "Write a function to remove the duplicates from the given tuple.", "mutation": "remove_duplicates_from_tuple"}
+{"task_id": 193, "original": "Write a python function to convert octal number to decimal number.", "mutation": "convert_octal_to_decimal"}
+{"task_id": 194, "original": "Write a python function to find the first position of an element in a sorted array.", "mutation": "find_first_position_sorted_array"}
+{"task_id": 195, "original": "Write a function to remove all the tuples with length k.", "mutation": "removeTuplesOfLengthK"}
+{"task_id": 196, "original": "Write a function to perform the exponentiation of the given two tuples.", "mutation": "performExponentiationTuple"}
+{"task_id": 197, "original": "Write a function to find the largest triangle that can be inscribed in an ellipse.", "mutation": "findLargestInscribedTriangleEllipse"}
+{"task_id": 198, "original": "Write a python function to find highest power of 2 less than or equal to given number.", "mutation": "find_highest_power_of_2"}
+{"task_id": 199, "original": "Write a function to find all index positions of the maximum values in a given list.", "mutation": "find_max_indexes"}
+{"task_id": 200, "original": "Write a python function to check whether the elements in a list are same or not.", "mutation": "check_elements_same_list"}
+{"task_id": 201, "original": "Write a function to remove even characters in a string.", "mutation": "removeEvenCharacters"}
+{"task_id": 202, "original": "Write a python function to find the hamming distance between given two integers.", "mutation": "calculate_hamming_distance"}
+{"task_id": 203, "original": "Write a python function to count the occurrence of a given character in a string.", "mutation": "count_char_occurrence"}
+{"task_id": 204, "original": "Write a function to find the inversions of tuple elements in the given tuple list.", "mutation": "find_inversions_of_tuple_elements"}
+{"task_id": 205, "original": "Write a function to perform the adjacent element concatenation in the given tuples.", "mutation": "concatenateAdjacentElements"}
+{"task_id": 206, "original": "Write a function to count the longest repeating subsequences such that the two subsequences don\u2019t have same string characters at same positions.", "mutation": "countLongestRepeatingSubsequencesWithoutSameCharacters"}
+{"task_id": 207, "original": "Write a function to check the given decimal with a precision of 2 by using regex.", "mutation": "checkDecimalPrecisionTwo"}
+{"task_id": 208, "original": "Write a function to delete the smallest element from the given heap and then insert a new item.", "mutation": "deleteMinAndInsertNewItem"}
+{"task_id": 209, "original": "Write a function to check that the given string contains only a certain set of characters(in this case a-z, a-z and 0-9) by using regex.", "mutation": "checkCharacterSetRegex"}
+{"task_id": 210, "original": "Write a python function to count numbers whose oth and nth bits are set.", "mutation": "count_numbers_with_set_bits"}
+{"task_id": 211, "original": "Write a python function to find the sum of fourth power of n natural numbers.", "mutation": "sum_of_fourth_powers_of_natural_numbers"}
+{"task_id": 212, "original": "Write a function to perform the concatenation of two string tuples.", "mutation": "concatenateStringTuples"}
+{"task_id": 213, "original": "Write a function to convert radians to degrees.", "mutation": "convertRadiansToDegrees"}
+{"task_id": 214, "original": "Write a function to decode a run-length encoded given list.", "mutation": "decode_run_length_encoded_list"}
+{"task_id": 215, "original": "Write a function to check if a nested list is a subset of another nested list.", "mutation": "is_nested_list_subset"}
+{"task_id": 216, "original": "Write a python function to find the first repeated character in a given string.", "mutation": "find_first_repeated_character"}
+{"task_id": 217, "original": "Write a python function to find the minimum operations required to make two numbers equal.", "mutation": "find_min_operations_required"}
+{"task_id": 218, "original": "Write a function to extract maximum and minimum k elements in the given tuple.", "mutation": "extractMinMaxKElements"}
+{"task_id": 219, "original": "Write a function to replace maximum n occurrences of spaces, commas, or dots with a colon.", "mutation": "replaceMaxOccurrencesWithColon"}
+{"task_id": 220, "original": "Write a python function to find the first even number in a given list of numbers.", "mutation": "find_first_even_number"}
+{"task_id": 221, "original": "Write a function to check if all the elements in tuple have same data type or not.", "mutation": "checkTupleDataTypesHomogeneous"}
+{"task_id": 222, "original": "Write a function to check for majority element in the given sorted array.", "mutation": "checkForMajorityElement"}
+{"task_id": 223, "original": "Write a python function to count set bits of a given number.", "mutation": "count_set_bits"}
+{"task_id": 224, "original": "Write a python function to find the minimum element in a sorted and rotated array.", "mutation": "find_min_element_sorted_rotated_array"}
+{"task_id": 225, "original": "Write a python function to remove the characters which have odd index values of a given string.", "mutation": "remove_odd_index_characters"}
+{"task_id": 226, "original": "Write a function to find minimum of three numbers.", "mutation": "findMinimumOfThreeNumbers"}
+{"task_id": 227, "original": "Write a python function to check whether all the bits are unset in the given range or not.", "mutation": "check_bits_unset_in_range"}
+{"task_id": 228, "original": "Write a function to re-arrange the elements of the given array so that all negative elements appear before positive ones.", "mutation": "rearrangeNegativePositive"}
+{"task_id": 229, "original": "Write a function to replace blank spaces with any character in a string.", "mutation": "replaceSpacesWithString"}
+{"task_id": 230, "original": "Write a function to find the maximum sum in the given right triangle of numbers.", "mutation": "findMaxSumInRightTriangle"}
+{"task_id": 231, "original": "Write a function to get the n largest items from a dataset.", "mutation": "getNLargestItems"}
+{"task_id": 232, "original": "Write a function to find the lateral surface area of a cylinder.", "mutation": "calculateCylinderLateralSurfaceArea"}
+{"task_id": 233, "original": "Write a function to find the volume of a cube.", "mutation": "calculateCubeVolume"}
+{"task_id": 234, "original": "Write a python function to set all even bits of a given number.", "mutation": "set_even_bits"}
+{"task_id": 235, "original": "Write a python function to count the maximum number of equilateral triangles that can be formed within a given equilateral triangle.", "mutation": "count_max_equilateral_triangles"}
+{"task_id": 236, "original": "Write a function to check the occurrences of records which occur similar times in the given tuples.", "mutation": "checkOccurrencesOfSimilarTimes"}
+{"task_id": 237, "original": "Write a python function to count number of non-empty substrings of a given string.", "mutation": "count_non_empty_substrings"}
+{"task_id": 238, "original": "Write a function to find the number of possible sequences of length n such that each of the next element is greater than or equal to twice of the previous element but less than or equal to m.", "mutation": "findPossibleSequences"}
+{"task_id": 239, "original": "Write a function to replace the last element of the list with another list.", "mutation": "replaceLastElementWithList"}
+{"task_id": 240, "original": "Write a function to generate a 3d array having each element as '*'.", "mutation": "generate3DArrayWithAsterisks"}
+{"task_id": 241, "original": "Write a function to count total characters in a string.", "mutation": "countTotalCharactersOfString"}
+{"task_id": 242, "original": "Write a function to sort the given list based on the occurrence of first element of tuples.", "mutation": "sort_list_by_first_element_occurrence"}
+{"task_id": 243, "original": "Write a python function to find the next perfect square greater than a given number.", "mutation": "find_next_perfect_square"}
+{"task_id": 244, "original": "Write a function to find the maximum sum of bi-tonic sub-sequence for the given array.", "mutation": "findMaxBiTonicSubsequenceSum"}
+{"task_id": 245, "original": "Write a function for computing square roots using the babylonian method.", "mutation": "computeSquareRootBabylonian"}
+{"task_id": 246, "original": "Write a function to find the longest palindromic subsequence in the given string.", "mutation": "findLongestPalindromicSubsequence"}
+{"task_id": 247, "original": "Write a function to calculate the harmonic sum of n-1.", "mutation": "calculateHarmonicSum"}
+{"task_id": 248, "original": "Write a function to find the intersection of two arrays using lambda function.", "mutation": "find_intersection_using_lambda"}
+{"task_id": 249, "original": "Write a python function to count the occcurences of an element in a tuple.", "mutation": "count_occurrences_in_tuple"}
+{"task_id": 250, "original": "Write a function to insert an element before each element of a list.", "mutation": "insertBeforeEachElement"}
+{"task_id": 251, "original": "Write a python function to convert complex numbers to polar coordinates.", "mutation": "convert_complex_to_polar"}
+{"task_id": 252, "original": "Write a python function to count integers from a given list.", "mutation": "count_integers_from_list"}
+{"task_id": 253, "original": "Write a function to find all words starting with 'a' or 'e' in a given string.", "mutation": "findWordsStartingWithAE"}
+{"task_id": 254, "original": "Write a function to choose specified number of colours from three different colours and generate all the combinations with repetitions.", "mutation": "generateColorCombinations"}
+{"task_id": 255, "original": "Write a python function to count the number of prime numbers less than a given non-negative number.", "mutation": "count_prime_numbers_less_than_n"}
+{"task_id": 256, "original": "Write a function to swap two numbers.", "mutation": "swapNumbers"}
+{"task_id": 257, "original": "Write a function to find number of odd elements in the given list using lambda function.", "mutation": "count_odd_elements_using_lambda"}
+{"task_id": 258, "original": "Write a function to maximize the given two tuples.", "mutation": "maximizeTuples"}
+{"task_id": 259, "original": "Write a function to find the nth newman\u2013shanks\u2013williams prime number.", "mutation": "findNthNSWPrime"}
+{"task_id": 260, "original": "Write a function to perform mathematical division operation across the given tuples.", "mutation": "performDivisionOperationAcrossTuples"}
+{"task_id": 261, "original": "Write a function to split a given list into two parts where the length of the first part of the list is given.", "mutation": "splitListByLength"}
+{"task_id": 262, "original": "Write a function to merge two dictionaries.", "mutation": "merge_dictionaries"}
+{"task_id": 263, "original": "Write a function to calculate a dog's age in dog's years.", "mutation": "calculateDogAgeInDogYears"}
+{"task_id": 264, "original": "Write a function to split a list for every nth element.", "mutation": "splitListEveryNth"}
+{"task_id": 265, "original": "Write a function to find the lateral surface area of a cube.", "mutation": "calculateCubeLateralSurfaceArea"}
+{"task_id": 266, "original": "Write a python function to find the sum of squares of first n odd natural numbers.", "mutation": "sum_of_squares_of_first_n_odd_numbers"}
+{"task_id": 267, "original": "Write a function to find the n'th star number.", "mutation": "findNthStarNumber"}
+{"task_id": 268, "original": "Write a function to find the ascii value of a character.", "mutation": "getAsciiValue"}
+{"task_id": 269, "original": "Write a python function to find the sum of even numbers at even positions.", "mutation": "sum_even_numbers_at_even_positions"}
+{"task_id": 270, "original": "Write a python function to find the sum of fifth power of first n even natural numbers.", "mutation": "sum_of_fifth_power_of_even_numbers"}
+{"task_id": 271, "original": "Write a function to perfom the rear element extraction from list of tuples records.", "mutation": "extractRearElementFromTuplesList"}
+{"task_id": 272, "original": "Write a function to substract the contents of one tuple with corresponding index of other tuple.", "mutation": "subtract_tuples"}
+{"task_id": 273, "original": "Write a python function to find sum of even index binomial coefficients.", "mutation": "find_sum_even_index_binomial_coefficients"}
+{"task_id": 274, "original": "Write a python function to find the position of the last removed element from the given array.", "mutation": "find_last_removed_position"}
+{"task_id": 275, "original": "Write a function to find the volume of a cylinder.", "mutation": "calculateCylinderVolume"}
+{"task_id": 276, "original": "Write a function to filter a dictionary based on values.", "mutation": "filterDictionaryValues"}
+{"task_id": 277, "original": "Write a function to find the element count that occurs before the record in the given tuple.", "mutation": "find_element_count_before_record"}
+{"task_id": 278, "original": "Write a function to find the nth decagonal number.", "mutation": "findNthDecagonalNumber"}
+{"task_id": 279, "original": "Write a function to search an element in the given array by using sequential search.", "mutation": "searchElementSequentially"}
+{"task_id": 280, "original": "Write a python function to check if the elements of a given list are unique or not.", "mutation": "check_unique_elements"}
+{"task_id": 281, "original": "Write a function to substaract two lists using map and lambda function.", "mutation": "subtract_lists"}
+{"task_id": 282, "original": "Write a python function to check whether the frequency of each digit is less than or equal to the digit itself.", "mutation": "check_digit_frequency"}
+{"task_id": 283, "original": "Write a function to check whether all items of a list are equal to a given string.", "mutation": "checkAllItemsEqualToString"}
+{"task_id": 284, "original": "Write a function that matches a string that has an a followed by two to three 'b'.", "mutation": "matchStringWithABBB"}
+{"task_id": 285, "original": "Write a function to find the largest sum of contiguous array in the modified array which is formed by repeating the given array k times.", "mutation": "findLargestContiguousSumInRepeatedArray"}
+{"task_id": 286, "original": "Write a python function to find the sum of squares of first n even natural numbers.", "mutation": "sum_of_squares_of_even_numbers"}
+{"task_id": 287, "original": "Write a function to count array elements having modular inverse under given prime number p equal to itself.", "mutation": "countElementsWithModularInverse"}
+{"task_id": 288, "original": "Write a python function to calculate the number of odd days in a given year.", "mutation": "calculate_odd_days_in_year"}
+{"task_id": 289, "original": "Write a function to find the list of lists with maximum length.", "mutation": "findMaxListLengthLists"}
+{"task_id": 290, "original": "Write a function to find out the number of ways of painting the fence such that at most 2 adjacent posts have the same color for the given fence with n posts and k colors.", "mutation": "findNumberOfWaysToPaintFence"}
+{"task_id": 291, "original": "Write a python function to find quotient of two numbers.", "mutation": "find_quotient"}
+{"task_id": 292, "original": "Write a function to find the third side of a right angled triangle.", "mutation": "findThirdSideOfRightAngledTriangle"}
+{"task_id": 293, "original": "Write a function to find the maximum value in a given heterogeneous list.", "mutation": "findMaxValue"}
+{"task_id": 294, "original": "Write a function to return the sum of all divisors of a number.", "mutation": "sumOfDivisors"}
+{"task_id": 295, "original": "Write a python function to count inversions in an array.", "mutation": "count_inversions"}
+{"task_id": 296, "original": "Write a function to flatten a given nested list structure.", "mutation": "flattenList"}
+{"task_id": 297, "original": "Write a function to find the nested list elements which are present in another list.", "mutation": "find_nested_elements_in_list"}
+{"task_id": 298, "original": "Write a function to calculate the maximum aggregate from the list of tuples.", "mutation": "calculateMaxAggregate"}
+{"task_id": 299, "original": "Write a function to find the count of all binary sequences of length 2n such that sum of first n bits is same as sum of last n bits.", "mutation": "countBinarySequencesWithEqualSums"}
+{"task_id": 300, "original": "Write a function to find the depth of a dictionary.", "mutation": "findDictionaryDepth"}
+{"task_id": 301, "original": "Write a python function to find the most significant bit number which is also a set bit.", "mutation": "find_most_significant_set_bit"}
+{"task_id": 302, "original": "Write a python function to check whether the count of inversion of two types are same or not.", "mutation": "check_inversion_count_similarity"}
+{"task_id": 303, "original": "Write a python function to find element at a given index after number of rotations.", "mutation": "find_element_after_rotations"}
+{"task_id": 304, "original": "Write a function to match two words from a list of words starting with letter 'p'.", "mutation": "matchWordsStartingWithP"}
+{"task_id": 305, "original": "Write a function to find the maximum sum of increasing subsequence from prefix till ith index and also including a given kth element which is after i, i.e., k > i .", "mutation": "findMaxSumIncreasingSubsequenceWithKthElement"}
+{"task_id": 306, "original": "Write a function to get a colon of a tuple.", "mutation": "get_tuple_colon"}
+{"task_id": 307, "original": "Write a function to find the specified number of largest products from two given lists.", "mutation": "find_largest_products"}
+{"task_id": 308, "original": "Write a python function to find the maximum of two numbers.", "mutation": "find_max"}
+{"task_id": 309, "original": "Write a function to convert a given string to a tuple.", "mutation": "convertStringToTuple"}
+{"task_id": 310, "original": "Write a python function to set the left most unset bit.", "mutation": "set_leftmost_unset_bit"}
+{"task_id": 311, "original": "Write a function to find the volume of a cone.", "mutation": "calculateConeVolume"}
+{"task_id": 312, "original": "Write a python function to print positive numbers in a list.", "mutation": "print_positive_numbers"}
+{"task_id": 313, "original": "Write a function to find out the maximum sum such that no two chosen numbers are adjacent for the given rectangular grid of dimension 2 x n.", "mutation": "findMaxSumNoAdjacentAdjacentNumbers"}
+{"task_id": 314, "original": "Write a python function to find the first maximum length of even word.", "mutation": "find_first_max_even_word_length"}
+{"task_id": 315, "original": "Write a function to find the index of the last occurrence of a given number in a sorted array.", "mutation": "findLastOccurrenceIndex"}
+{"task_id": 316, "original": "Write a function to reflect the modified run-length encoding from a list.", "mutation": "reflectModifiedRunLengthEncoding"}
+{"task_id": 317, "original": "Write a python function to find the maximum volume of a cuboid with given sum of sides.", "mutation": "find_max_volume_cuboid"}
+{"task_id": 318, "original": "Write a function to find all five characters long word in the given string by using regex.", "mutation": "findFiveCharWordsRegex"}
+{"task_id": 319, "original": "Write a function to calculate the difference between the squared sum of first n natural numbers and the sum of squared first n natural numbers.", "mutation": "calculateDifferenceSquaredSumAndSumOfSquares"}
+{"task_id": 320, "original": "Write a function to find the demlo number for the given number.", "mutation": "findDemloNumber"}
+{"task_id": 321, "original": "Write a function to find all index positions of the minimum values in a given list.", "mutation": "find_min_indexes"}
+{"task_id": 322, "original": "Write a function to re-arrange the given array in alternating positive and negative items.", "mutation": "rearrangeAlternatingPositiveNegative"}
+{"task_id": 323, "original": "Write a function to extract the sum of alternate chains of tuples.", "mutation": "extract_sum_of_alternate_chains"}
+{"task_id": 324, "original": "Write a python function to find the minimum number of squares whose sum is equal to a given number.", "mutation": "find_min_squares_sum"}
+{"task_id": 325, "original": "Write a function to get the word with most number of occurrences in the given strings list.", "mutation": "getMostFrequentWord"}
+{"task_id": 326, "original": "Write a function to print check if the triangle is isosceles or not.", "mutation": "checkIsoscelesTriangle"}
+{"task_id": 327, "original": "Write a function to rotate a given list by specified number of items to the left direction.", "mutation": "rotateListLeft"}
+{"task_id": 328, "original": "Write a python function to count negative numbers in a list.", "mutation": "count_negative_numbers"}
+{"task_id": 329, "original": "Write a function to find all three, four, five characters long words in the given string by using regex.", "mutation": "findWordsByLengthRegex"}
+{"task_id": 330, "original": "Write a python function to count unset bits of a given number.", "mutation": "count_unset_bits"}
+{"task_id": 331, "original": "Write a function to count character frequency of a given string.", "mutation": "countCharacterFrequency"}
+{"task_id": 332, "original": "Write a python function to sort a list according to the second element in sublist.", "mutation": "sort_list_by_second_element"}
+{"task_id": 333, "original": "Write a python function to check whether the triangle is valid or not if sides are given.", "mutation": "check_triangle_validity"}
+{"task_id": 334, "original": "Write a function to find the sum of arithmetic progression.", "mutation": "findSumOfArithmeticProgression"}
+{"task_id": 335, "original": "Write a function to check whether the given month name contains 28 days or not.", "mutation": "checkMonthFor28Days"}
+{"task_id": 336, "original": "Write a function that matches a word at the end of a string, with optional punctuation.", "mutation": "matchWordAtEndOfString"}
+{"task_id": 337, "original": "Write a python function to count the number of substrings with same first and last characters.", "mutation": "count_substrings_with_same_first_and_last_characters"}
+{"task_id": 338, "original": "Write a python function to find the maximum occuring divisor in an interval.", "mutation": "find_max_occuring_divisor"}
+{"task_id": 339, "original": "Write a python function to find the sum of the three lowest positive numbers from a given list of numbers.", "mutation": "find_sum_of_three_lowest_positive_numbers"}
+{"task_id": 340, "original": "Write a function to convert the given set into ordered tuples.", "mutation": "convertSetToOrderedTuples"}
+{"task_id": 341, "original": "Write a function to find the smallest range that includes at-least one element from each of the given arrays.", "mutation": "findSmallestRange"}
+{"task_id": 342, "original": "Write a function to calculate the number of digits and letters in a string.", "mutation": "calculateDigitsAndLettersCountOfString"}
+{"task_id": 343, "original": "Write a python function to find number of elements with odd factors in a given range.", "mutation": "count_odd_factors_elementsInRange"}
+{"task_id": 344, "original": "Write a function to find the difference between two consecutive numbers in a given list.", "mutation": "findConsecutiveDifference"}
+{"task_id": 345, "original": "Write a function to find entringer number e(n, k).", "mutation": "findEntringerNumber"}
+{"task_id": 346, "original": "Write a python function to count the number of squares in a rectangle.", "mutation": "count_squares_in_rectangle"}
+{"task_id": 347, "original": "Write a function to count sequences of given length having non-negative prefix sums that can be generated by given values.", "mutation": "countValidSequences"}
+{"task_id": 348, "original": "Write a python function to check whether the given string is a binary string or not.", "mutation": "is_binary_string"}
+{"task_id": 349, "original": "Write a python function to minimize the length of the string by removing occurrence of only one character.", "mutation": "minimize_string_length"}
+{"task_id": 350, "original": "Write a python function to find the first element occurring k times in a given array.", "mutation": "find_first_element_occuring_k_times"}
+{"task_id": 351, "original": "Write a python function to check whether all the characters in a given string are unique.", "mutation": "check_unique_characters"}
+{"task_id": 352, "original": "Write a function to remove a specified column from a given nested list.", "mutation": "remove_column_from_nested_list"}
+{"task_id": 353, "original": "Write a function to find t-nth term of arithemetic progression.", "mutation": "findArithmeticProgressionTerm"}
+{"task_id": 354, "original": "Write a python function to count the number of rectangles in a circle of radius r.", "mutation": "count_rectangles_in_circle"}
+{"task_id": 355, "original": "Write a function to find the third angle of a triangle using two angles.", "mutation": "findThirdAngleTriangle"}
+{"task_id": 356, "original": "Write a function to find the maximum element of all the given tuple records.", "mutation": "findMaxElementInTuples"}
+{"task_id": 357, "original": "Write a function to find modulo division of two lists using map and lambda function.", "mutation": "find_modulo_division_lists"}
+{"task_id": 358, "original": "Write a python function to check whether one root of the quadratic equation is twice of the other or not.", "mutation": "check_roots_relationship"}
+{"task_id": 359, "original": "Write a function to find the n\u2019th carol number.", "mutation": "findNthCarolNumber"}
+{"task_id": 360, "original": "Write a function to remove empty lists from a given list of lists.", "mutation": "removeEmptyLists"}
+{"task_id": 361, "original": "Write a python function to find the item with maximum occurrences in a given list.", "mutation": "find_max_occurrences_item"}
+{"task_id": 362, "original": "Write a function to add the k elements to each element in the tuple.", "mutation": "add_k_elements_to_tuple"}
+{"task_id": 363, "original": "Write a function to find the number of flips required to make the given binary string a sequence of alternate characters.", "mutation": "findFlipsToAlternateChars"}
+{"task_id": 364, "original": "Write a python function to count the number of digits of a given number.", "mutation": "count_digits"}
+{"task_id": 365, "original": "Write a python function to find the largest product of the pair of adjacent elements from a given list of integers.", "mutation": "largest_adjacent_product"}
+{"task_id": 366, "original": "Write a function to check if a binary tree is balanced or not.", "mutation": "isBinaryTreeBalanced"}
+{"task_id": 367, "original": "Write a function to repeat the given tuple n times.", "mutation": "repeatTuple"}
+{"task_id": 368, "original": "Write a function to find the lateral surface area of cuboid", "mutation": "calculateLateralSurfaceAreaOfCuboid"}
+{"task_id": 369, "original": "Write a function to sort a tuple by its float element.", "mutation": "sort_tuple_by_float"}
+{"task_id": 370, "original": "Write a function to find the smallest missing element in a sorted array.", "mutation": "findSmallestMissingElement"}
+{"task_id": 371, "original": "Write a function to sort a given list of elements in ascending order using heap queue algorithm.", "mutation": "sort_list_using_heap_queue_algorithm"}
+{"task_id": 372, "original": "Write a function to find the volume of a cuboid.", "mutation": "calculateCuboidVolume"}
+{"task_id": 373, "original": "Write a function to print all permutations of a given string including duplicates.", "mutation": "printAllPermutationsOfStringDuplicates"}
+{"task_id": 374, "original": "Write a function to round the given number to the nearest multiple of a specific number.", "mutation": "roundToNearestMultiple"}
+{"task_id": 375, "original": "Write a function to remove tuple elements that occur more than once and replace the duplicates with some custom value.", "mutation": "removeDuplicatesAndReplace"}
+{"task_id": 376, "original": "Write a python function to remove all occurrences of a character in a given string.", "mutation": "remove_char_occurrences"}
+{"task_id": 377, "original": "Write a python function to shift last element to first position in the given list.", "mutation": "shift_last_to_first"}
+{"task_id": 378, "original": "Write a function to find the surface area of a cuboid.", "mutation": "calculateCuboidSurfaceArea"}
+{"task_id": 379, "original": "Write a function to generate a two-dimensional array.", "mutation": "generateTwoDimensionalArray"}
+{"task_id": 380, "original": "Write a function to sort a list of lists by a given index of the inner list.", "mutation": "sortListByIndex"}
+{"task_id": 381, "original": "Write a function to find the number of rotations in a circularly sorted array.", "mutation": "findNumberOfRotations"}
+{"task_id": 382, "original": "Write a python function to toggle all odd bits of a given number.", "mutation": "toggle_odd_bits"}
+{"task_id": 383, "original": "Write a python function to find the frequency of the smallest value in a given array.", "mutation": "find_smallest_value_frequency"}
+{"task_id": 384, "original": "Write a function to find the n'th perrin number using recursion.", "mutation": "findNthPerrinNumberRecursive"}
+{"task_id": 385, "original": "Write a function to find out the minimum no of swaps required for bracket balancing in the given string.", "mutation": "findMinSwapsForBracketBalancing"}
+{"task_id": 386, "original": "Write a python function to check whether the hexadecimal number is even or odd.", "mutation": "check_hexadecimal_even_odd"}
+{"task_id": 387, "original": "Write a python function to find the highest power of 2 that is less than or equal to n.", "mutation": "find_highest_power_of_2"}
+{"task_id": 388, "original": "Write a function to find the n'th lucas number.", "mutation": "findNthLucasNumber"}
+{"task_id": 389, "original": "Write a function to insert a given string at the beginning of all items in a list.", "mutation": "insert_string_at_beginning_of_list_items"}
+{"task_id": 390, "original": "Write a function to convert more than one list to nested dictionary.", "mutation": "convert_lists_to_nested_dict"}
+{"task_id": 391, "original": "Write a function to find the maximum sum possible by using the given equation f(n) = max( (f(n/2) + f(n/3) + f(n/4) + f(n/5)), n).", "mutation": "findMaximumSum"}
+{"task_id": 392, "original": "Write a function to find the list with maximum length using lambda function.", "mutation": "find_max_length_list"}
+{"task_id": 393, "original": "Write a function to check if given tuple is distinct or not.", "mutation": "isTupleDistinct"}
+{"task_id": 394, "original": "Write a python function to find the first non-repeated character in a given string.", "mutation": "find_first_non_repeated_character"}
+{"task_id": 395, "original": "Write a function to check whether the given string starts and ends with the same character or not using regex.", "mutation": "checkStartEndSameCharRegex"}
+{"task_id": 396, "original": "Write a function to find the median of three specific numbers.", "mutation": "findMedianOfThreeNumbers"}
+{"task_id": 397, "original": "Write a function to compute the sum of digits of each number of a given list.", "mutation": "computeSumOfDigitsList"}
+{"task_id": 398, "original": "Write a function to perform the mathematical bitwise xor operation across the given tuples.", "mutation": "performBitwiseXOROperation"}
+{"task_id": 399, "original": "Write a function to extract the frequency of unique tuples in the given list order irrespective.", "mutation": "extractUniqueTupleFrequency"}
+{"task_id": 400, "original": "Write a function to perform index wise addition of tuple elements in the given two nested tuples.", "mutation": "perform_index_wise_addition_nested_tuples"}
+{"task_id": 401, "original": "Write a function to compute the value of ncr%p.", "mutation": "compute_ncr_modulo"}
+{"task_id": 402, "original": "Write a function to check if a url is valid or not using regex.", "mutation": "isValidUrlUsingRegex"}
+{"task_id": 403, "original": "Write a python function to find the minimum of two numbers.", "mutation": "find_min_two_numbers"}
+{"task_id": 404, "original": "Write a function to check whether an element exists within a tuple.", "mutation": "check_element_in_tuple"}
+{"task_id": 405, "original": "Write a python function to find the parity of a given number.", "mutation": "find_parity"}
+{"task_id": 406, "original": "Write a function to create the next bigger number by rearranging the digits of a given number.", "mutation": "createNextBiggerNumber"}
+{"task_id": 407, "original": "Write a function to find k number of pairs which consist of one element from the first array and one element from the second array.", "mutation": "findKPairs"}
+{"task_id": 408, "original": "Write a function to find the minimum product from the pairs of tuples within a given list.", "mutation": "find_min_product_pairs"}
+{"task_id": 409, "original": "Write a function to find the minimum value in a given heterogeneous list.", "mutation": "findMinValue"}
+{"task_id": 410, "original": "Write a function to convert the given snake case string to camel case string by using regex.", "mutation": "convertSnakeToCamelCase"}
+{"task_id": 411, "original": "Write a python function to remove odd numbers from a given list.", "mutation": "remove_odd_numbers"}
+{"task_id": 412, "original": "Write a function to extract the nth element from a given list of tuples.", "mutation": "extract_nth_element_from_list_of_tuples"}
+{"task_id": 413, "original": "Write a python function to check whether the value exists in a sequence or not.", "mutation": "check_value_in_sequence"}
+{"task_id": 414, "original": "Write a python function to find a pair with highest product from a given array of integers.", "mutation": "find_highest_product_pair"}
+{"task_id": 415, "original": "Write a function to find the maximum sum we can make by dividing number in three parts recursively and summing them up together for the given number.", "mutation": "findMaxSumDividingThreeParts"}
+{"task_id": 416, "original": "Write a function to find common first element in given list of tuple.", "mutation": "find_common_first_element"}
+{"task_id": 417, "original": "Write a python function to find the sublist having maximum length.", "mutation": "find_max_length_sublist"}
+{"task_id": 418, "original": "Write a function to round every number of a given list of numbers and print the total sum multiplied by the length of the list.", "mutation": "roundAndSumMultiplyLength"}
+{"task_id": 419, "original": "Write a python function to find the cube sum of first n even natural numbers.", "mutation": "find_cube_sum_of_even_natural_numbers"}
+{"task_id": 420, "original": "Write a function to concatenate each element of tuple by the delimiter.", "mutation": "concatenateTupleElementsByDelimiter"}
+{"task_id": 421, "original": "Write a python function to find the average of cubes of first n natural numbers.", "mutation": "average_cubes_of_natural_numbers"}
+{"task_id": 422, "original": "Write a function to solve gold mine problem.", "mutation": "solveGoldMineProblem"}
+{"task_id": 423, "original": "Write a function to extract only the rear index element of each string in the given tuple.", "mutation": "extract_rear_index_elements"}
+{"task_id": 424, "original": "Write a function to count the number of sublists containing a particular element.", "mutation": "countSublistsWithElement"}
+{"task_id": 425, "original": "Write a function to filter odd numbers using lambda function.", "mutation": "filter_odd_numbers"}
+{"task_id": 426, "original": "Write a function to convert a date of yyyy-mm-dd format to dd-mm-yyyy format by using regex.", "mutation": "convertDateFormat"}
+{"task_id": 427, "original": "Write a function to sort the given array by using shell sort.", "mutation": "sortArrayUsingShellSort"}
+{"task_id": 428, "original": "Write a function to extract the elementwise and tuples from the given two tuples.", "mutation": "extractElementwiseTuples"}
+{"task_id": 429, "original": "Write a function to find the directrix of a parabola.", "mutation": "findDirectrix"}
+{"task_id": 430, "original": "Write a function that takes two lists and returns true if they have at least one common element.", "mutation": "checkCommonElements"}
+{"task_id": 431, "original": "Write a function to find the median of a trapezium.", "mutation": "findMedianOfTrapezium"}
+{"task_id": 432, "original": "Write a function to check whether the entered number is greater than the elements of the given array.", "mutation": "isNumberGreaterThanArrayElements"}
+{"task_id": 433, "original": "Write a function that matches a string that has an a followed by one or more b's.", "mutation": "matchStringWithAAndBs"}
+{"task_id": 434, "original": "Write a python function to find the last digit of a given number.", "mutation": "find_last_digit"}
+{"task_id": 435, "original": "Write a python function to print negative numbers in a list.", "mutation": "print_negative_numbers"}
+{"task_id": 436, "original": "Write a function to remove odd characters in a string.", "mutation": "removeOddCharacters"}
+{"task_id": 437, "original": "Write a function to count bidirectional tuple pairs.", "mutation": "countBidirectionalTuplePairs"}
+{"task_id": 438, "original": "Write a function to convert a list of multiple integers into a single integer.", "mutation": "convertListToInt"}
+{"task_id": 439, "original": "Write a function to find all adverbs and their positions in a given sentence.", "mutation": "findAdverbsPositions"}
+{"task_id": 440, "original": "Write a function to find the surface area of a cube.", "mutation": "calculateCubeSurfaceArea"}
+{"task_id": 441, "original": "Write a function to find the ration of positive numbers in an array of integers.", "mutation": "findPositiveRatio"}
+{"task_id": 442, "original": "Write a python function to find the largest negative number from the given list.", "mutation": "find_largest_negative_number"}
+{"task_id": 443, "original": "Write a function to trim each tuple by k in the given tuple list.", "mutation": "trimTuplesByK"}
+{"task_id": 444, "original": "Write a function to perform index wise multiplication of tuple elements in the given two tuples.", "mutation": "multiplyTuples"}
+{"task_id": 445, "original": "Write a python function to count the occurence of all elements of list in a tuple.", "mutation": "count_occurrences_of_elements_in_tuple"}
+{"task_id": 446, "original": "Write a function to find cubes of individual elements in a list using lambda function.", "mutation": "find_cubes_using_lambda"}
+{"task_id": 447, "original": "Write a function to calculate the sum of perrin numbers.", "mutation": "calculatePerrinSum"}
+{"task_id": 448, "original": "Write a python function to check whether the triangle is valid or not if 3 points are given.", "mutation": "check_triangle_validity"}
+{"task_id": 449, "original": "Write a function to extract specified size of strings from a give list of string values.", "mutation": "extractStringsOfSize"}
+{"task_id": 450, "original": "Write a function to remove all whitespaces from the given string using regex.", "mutation": "removeWhitespaceRegex"}
+{"task_id": 451, "original": "Write a function that gives loss amount if the given amount has loss else return none.", "mutation": "calculate_loss_amount"}
+{"task_id": 452, "original": "Write a python function to find the sum of even factors of a number.", "mutation": "find_sum_of_even_factors"}
+{"task_id": 453, "original": "Write a function that matches a word containing 'z'.", "mutation": "matchWordWithZ"}
+{"task_id": 454, "original": "Write a function to check whether the given month number contains 31 days or not.", "mutation": "checkMonthFor31Days"}
+{"task_id": 455, "original": "Write a function to reverse strings in a given list of string values.", "mutation": "reverseStringsInList"}
+{"task_id": 456, "original": "Write a python function to find the sublist having minimum length.", "mutation": "find_min_length_sublist"}
+{"task_id": 457, "original": "Write a function to find the area of a rectangle.", "mutation": "calculateRectangleArea"}
+{"task_id": 458, "original": "Write a function to remove uppercase substrings from a given string by using regex.", "mutation": "removeUppercaseSubstrings"}
+{"task_id": 459, "original": "Write a python function to get the first element of each sublist.", "mutation": "get_first_elements_of_sublists"}
+{"task_id": 460, "original": "Write a python function to count the upper case characters in a given string.", "mutation": "count_uppercase_characters"}
+{"task_id": 461, "original": "Write a function to find all possible combinations of the elements of a given list.", "mutation": "findAllCombinations"}
+{"task_id": 462, "original": "Write a function to find the maximum product subarray of the given array.", "mutation": "findMaxProductSubarray"}
+{"task_id": 463, "original": "Write a function to check if all values are same in a dictionary.", "mutation": "check_all_values_same_in_dict"}
+{"task_id": 464, "original": "Write a function to drop empty items from a given dictionary.", "mutation": "drop_empty_items_from_dict"}
+{"task_id": 465, "original": "Write a function to find the peak element in the given array.", "mutation": "findPeakElement"}
+{"task_id": 466, "original": "Write a python function to convert decimal number to octal number.", "mutation": "convert_decimal_to_octal"}
+{"task_id": 467, "original": "Write a function to find the maximum product formed by multiplying numbers of an increasing subsequence of that array.", "mutation": "findMaxProductIncreasingSubsequence"}
+{"task_id": 468, "original": "Write a function to find the maximum profit earned from a maximum of k stock transactions", "mutation": "findMaxProfitFromKTransactions"}
+{"task_id": 469, "original": "Write a function to find the pairwise addition of the elements of the given tuples.", "mutation": "pairwise_addition"}
+{"task_id": 470, "original": "Write a python function to find remainder of array multiplication divided by n.", "mutation": "find_remainder_of_array_multiplication_divided_by_n"}
+{"task_id": 471, "original": "Write a python function to check whether the given list contains consecutive numbers or not.", "mutation": "check_consecutive_numbers"}
+{"task_id": 472, "original": "Write a function to find the tuple intersection of elements in the given tuple list irrespective of their order.", "mutation": "find_tuple_intersection"}
+{"task_id": 473, "original": "Write a function to replace characters in a string.", "mutation": "replaceCharactersInString"}
+{"task_id": 474, "original": "Write a function to sort counter by value.", "mutation": "sortCounterByValue"}
+{"task_id": 475, "original": "Write a python function to find the sum of the largest and smallest value in a given array.", "mutation": "find_sum_largest_smallest_values"}
+{"task_id": 476, "original": "Write a python function to convert the given string to lower case.", "mutation": "convert_to_lower_case"}
+{"task_id": 477, "original": "Write a function to remove lowercase substrings from a given string.", "mutation": "removeLowercaseSubstrings"}
+{"task_id": 478, "original": "Write a python function to find the first digit of a given number.", "mutation": "find_first_digit"}
+{"task_id": 479, "original": "Write a python function to find the maximum occurring character in a given string.", "mutation": "find_max_occuring_char"}
+{"task_id": 480, "original": "Write a function to determine if there is a subset of the given set with sum equal to the given sum.", "mutation": "isSubsetSumPossible"}
+{"task_id": 481, "original": "Write a function to find sequences of one upper case letter followed by lower case letters in the given string by using regex.", "mutation": "findUpperLowerSequences"}
+{"task_id": 482, "original": "Write a python function to find the first natural number whose factorial is divisible by x.", "mutation": "find_factorial_divisible_by_x"}
+{"task_id": 483, "original": "Write a function to remove the matching tuples from the given two tuples.", "mutation": "removeMatchingTuples"}
+{"task_id": 484, "original": "Write a function to find the largest palindromic number in the given array.", "mutation": "findLargestPalindromicNumber"}
+{"task_id": 485, "original": "Write a function to compute binomial probability for the given number.", "mutation": "computeBinomialProbability"}
+{"task_id": 486, "original": "Write a function to sort a list of tuples in increasing order by the last element in each tuple.", "mutation": "sort_tuples_by_last_element"}
+{"task_id": 487, "original": "Write a function to find the area of a pentagon.", "mutation": "calculatePentagonArea"}
+{"task_id": 488, "original": "Write a python function to find the frequency of the largest value in a given array.", "mutation": "find_largest_value_frequency"}
+{"task_id": 489, "original": "Write a function to extract all the pairs which are symmetric in the given tuple list.", "mutation": "extractSymmetricPairs"}
+{"task_id": 490, "original": "Write a function to find the sum of geometric progression series.", "mutation": "calculateGeometricProgressionSum"}
+{"task_id": 491, "original": "Write a function to search an element in the given array by using binary search.", "mutation": "searchElementBinary()"}
+{"task_id": 492, "original": "Write a function to calculate a grid of hexagon coordinates where function returns a list of lists containing 6 tuples of x, y point coordinates.", "mutation": "calculateHexagonGridCoordinates"}
+{"task_id": 493, "original": "Write a function to convert the given binary tuple to integer.", "mutation": "convertBinaryTupleToInt"}
+{"task_id": 494, "original": "Write a function to remove lowercase substrings from a given string by using regex.", "mutation": "removeLowercaseSubstrings"}
+{"task_id": 495, "original": "Write a function to find the smallest integers from a given list of numbers using heap queue algorithm.", "mutation": "find_smallest_integers_using_heap_queue"}
+{"task_id": 496, "original": "Write a function to find the surface area of a cone.", "mutation": "calculateConeSurfaceArea"}
+{"task_id": 497, "original": "Write a python function to find gcd of two positive integers.", "mutation": "find_gcd"}
+{"task_id": 498, "original": "Write a function to find the diameter of a circle.", "mutation": "findDiameterOfCircle"}
+{"task_id": 499, "original": "Write a function to concatenate all elements of the given list into a string.", "mutation": "concatenateListToString"}
+{"task_id": 500, "original": "Write a python function to find common divisor between two numbers in a given pair.", "mutation": "find_common_divisor"}
+{"task_id": 501, "original": "Write a python function to find remainder of two numbers.", "mutation": "find_remainder"}
+{"task_id": 502, "original": "Write a function to add consecutive numbers of a given list.", "mutation": "addConsecutiveNumbers"}
+{"task_id": 503, "original": "Write a python function to find the cube sum of first n natural numbers.", "mutation": "find_cube_sum_of_natural_numbers(n)"}
+{"task_id": 504, "original": "Write a function to move all zeroes to the end of the given array.", "mutation": "moveZeroesToEnd"}
+{"task_id": 505, "original": "Write a function to calculate the permutation coefficient of given p(n, k).", "mutation": "calculatePermutationCoefficient"}
+{"task_id": 506, "original": "Write a function to remove specific words from a given list.", "mutation": "removeSpecificWordsFromList"}
+{"task_id": 507, "original": "Write a function to check if the common elements between two given lists are in the same order or not.", "mutation": "checkCommonElementsOrder"}
+{"task_id": 508, "original": "Write a python function to find the average of odd numbers till a given odd number.", "mutation": "find_average_of_odd_numbers"}
+{"task_id": 509, "original": "Write a function to find the number of subsequences having product smaller than k for the given non negative array.", "mutation": "findSubsequencesWithProductSmallerThanK"}
+{"task_id": 510, "original": "Write a python function to find minimum sum of factors of a given number.", "mutation": "find_min_sum_factors"}
+{"task_id": 511, "original": "Write a function to count the element frequency in the mixed nested tuple.", "mutation": "count_element_frequency_nested_tuple"}
+{"task_id": 512, "original": "Write a function to convert tuple into list by adding the given string after every element.", "mutation": "convert_tuple_to_list_with_string_suffix"}
+{"task_id": 513, "original": "Write a function to find the summation of tuple elements in the given tuple list.", "mutation": "find_summation_of_tuple_elements"}
+{"task_id": 514, "original": "Write a function to check if there is a subset with sum divisible by m.", "mutation": "isSubsetSumDivisibleByM"}
+{"task_id": 515, "original": "Write a function to sort a list of elements using radix sort.", "mutation": "sortListUsingRadixSort"}
+{"task_id": 516, "original": "Write a python function to find the largest postive number from the given list.", "mutation": "find_largest_positive_number"}
+{"task_id": 517, "original": "Write a function to find the square root of a perfect number.", "mutation": "findSquareRootOfPerfectNumber"}
+{"task_id": 518, "original": "Write a function to calculate volume of a tetrahedron.", "mutation": "calculateTetrahedronVolume"}
+{"task_id": 519, "original": "Write a function to find the lcm of the given array elements.", "mutation": "findLCMFromArrayElements"}
+{"task_id": 520, "original": "Write a function to print check if the triangle is scalene or not.", "mutation": "checkTriangleScalene"}
+{"task_id": 521, "original": "Write a function to find the longest bitonic subsequence for the given array.", "mutation": "findLongestBitonicSubsequence"}
+{"task_id": 522, "original": "Write a function to check whether a given string has a capital letter, a lower case letter, a number and specified length using lambda function.", "mutation": "check_string_properties"}
+{"task_id": 523, "original": "Write a function to find the sum of maximum increasing subsequence of the given array.", "mutation": "findMaxIncreasingSubsequenceSum"}
+{"task_id": 524, "original": "Write a python function to check whether two given lines are parallel or not.", "mutation": "check_parallel_lines"}
+{"task_id": 525, "original": "Write a python function to capitalize first and last letters of each word of a given string.", "mutation": "capitalizeFirstAndLastLettersOfString"}
+{"task_id": 526, "original": "Write a function to find all pairs in an integer array whose sum is equal to a given number.", "mutation": "findPairsWithSum"}
+{"task_id": 527, "original": "Write a function to find the list of lists with minimum length.", "mutation": "findMinLengthLists"}
+{"task_id": 528, "original": "Write a function to find the nth jacobsthal-lucas number.", "mutation": "findNthJacobsthalLucasNumber"}
+{"task_id": 529, "original": "Write a function to find the ration of negative numbers in an array of integers.", "mutation": "findNegativeRatio"}
+{"task_id": 530, "original": "Write a function to find minimum number of coins that make a given value.", "mutation": "findMinimumCoins"}
+{"task_id": 531, "original": "Write a function to check if the two given strings are permutations of each other.", "mutation": "checkPermutation"}
+{"task_id": 532, "original": "Write a function to remove particular data type elements from the given tuple.", "mutation": "remove_data_type_elements"}
+{"task_id": 533, "original": "Write a function to search a literals string in a string and also find the location within the original string where the pattern occurs.", "mutation": "searchAndLocateSubstring"}
+{"task_id": 534, "original": "Write a function to find the top or bottom surface area of a cylinder.", "mutation": "calculateCylinderSurfaceArea"}
+{"task_id": 535, "original": "Write a function to select the nth items of a list.", "mutation": "selectNthItem"}
+{"task_id": 536, "original": "Write a python function to find the first repeated word in a given string.", "mutation": "find_first_repeated_word"}
+{"task_id": 537, "original": "Write a python function to convert a given string list to a tuple.", "mutation": "convert_string_list_to_tuple"}
+{"task_id": 538, "original": "Write a function to create a list containing the power of said number in bases raised to the corresponding number in the index using map function.", "mutation": "create_power_list_using_map"}
+{"task_id": 539, "original": "Write a python function to find the difference between highest and least frequencies in a given array.", "mutation": "find_frequency_difference"}
+{"task_id": 540, "original": "Write a function to find if the given number is abundant or not.", "mutation": "isAbundant"}
+{"task_id": 541, "original": "Write a function to replace all occurrences of spaces, commas, or dots with a colon in the given string by using regex.", "mutation": "replaceSpecialCharactersWithColon"}
+{"task_id": 542, "original": "Write a function to add two numbers and print number of digits of sum.", "mutation": "addAndPrintNumDigits"}
+{"task_id": 543, "original": "Write a function to flatten the tuple list to a string.", "mutation": "flattenTupleListToString"}
+{"task_id": 544, "original": "Write a python function to toggle only first and last bits of a given number.", "mutation": "toggle_first_last_bits"}
+{"task_id": 545, "original": "Write a function to find the last occurrence of a character in a string.", "mutation": "findLastOccurrenceOfString"}
+{"task_id": 546, "original": "Write a python function to find the sum of hamming distances of all consecutive numbers from o to n.", "mutation": "calculate_hamming_distance_sum"}
+{"task_id": 547, "original": "Write a function to find the length of the longest increasing subsequence of the given sequence.", "mutation": "findLongestIncreasingSubsequenceLength"}
+{"task_id": 548, "original": "Write a python function to find the sum of fifth power of first n odd natural numbers.", "mutation": "sum_of_fifth_power_of_odd_numbers"}
+{"task_id": 549, "original": "Write a python function to find the maximum element in a sorted and rotated array.", "mutation": "find_max_element_sorted_rotated_array"}
+{"task_id": 550, "original": "Write a function to extract a specified column from a given nested list.", "mutation": "extractColumn"}
+{"task_id": 551, "original": "Write a python function to check whether a given sequence is linear or not.", "mutation": "is_linear_sequence"}
+{"task_id": 552, "original": "Write a function to convert the given tuple to a floating-point number.", "mutation": "convertTupleToFloat"}
+{"task_id": 553, "original": "Write a python function to find odd numbers from a mixed list.", "mutation": "find_odd_numbers"}
+{"task_id": 554, "original": "Write a python function to find the difference between sum of cubes of first n natural numbers and the sum of first n natural numbers.", "mutation": "find_difference_sum_cubes_vs_sum_numbers"}
+{"task_id": 555, "original": "Write a python function to count the pairs with xor as an odd number.", "mutation": "count_odd_xor_pairs"}
+{"task_id": 556, "original": "Write a function to toggle characters case in a string.", "mutation": "toggleCaseOfString"}
+{"task_id": 557, "original": "Write a python function to find the digit distance between two integers.", "mutation": "find_digit_distance"}
+{"task_id": 558, "original": "Write a function to find the largest sum of contiguous subarray in the given array.", "mutation": "findLargestContiguousSubarraySum"}
+{"task_id": 559, "original": "Write a function to find the union of elements of the given tuples.", "mutation": "find_union_of_tuples"}
+{"task_id": 560, "original": "Write a function to assign with each element, its pair elements from other similar pairs in the given tuple.", "mutation": "assignPairElements"}
+{"task_id": 561, "original": "Write a python function to find the maximum length of sublist.", "mutation": "find_max_sublist_length"}
+{"task_id": 562, "original": "Write a function to extract values between quotation marks of a string.", "mutation": "extractValuesBetweenQuotationMarks"}
+{"task_id": 563, "original": "Write a python function to count unequal element pairs from the given array.", "mutation": "count_unequal_pairs"}
+{"task_id": 564, "original": "Write a python function to split a string into characters.", "mutation": "split_string_into_characters"}
+{"task_id": 565, "original": "Write a function to get the sum of a non-negative integer.", "mutation": "getSumOfNonNegativeInteger"}
+{"task_id": 566, "original": "Write a function to check whether a specified list is sorted or not.", "mutation": "isListSorted"}
+{"task_id": 567, "original": "Write a function to create a list of empty dictionaries.", "mutation": "create_empty_dict_list"}
+{"task_id": 568, "original": "Write a function to sort each sublist of strings in a given list of lists.", "mutation": "sort_sublists_strings"}
+{"task_id": 569, "original": "Write a function to remove words from a given list of strings containing a character or string.", "mutation": "removeWordsContainingCharacter"}
+{"task_id": 570, "original": "Write a function to find maximum possible sum of disjoint pairs for the given array of integers and a number k.", "mutation": "findMaxDisjointPairSum"}
+{"task_id": 571, "original": "Write a python function to remove two duplicate numbers from a given number of lists.", "mutation": "remove_duplicate_numbers"}
+{"task_id": 572, "original": "Write a python function to calculate the product of the unique numbers of a given list.", "mutation": "calculate_unique_product"}
+{"task_id": 573, "original": "Write a function to find the surface area of a cylinder.", "mutation": "calculateCylinderSurfaceArea"}
+{"task_id": 574, "original": "Write a python function to find nth number in a sequence which is not a multiple of a given number.", "mutation": "find_nth_non_multiple(seq, num)"}
+{"task_id": 575, "original": "Write a python function to check whether an array is subarray of another or not.", "mutation": "check_subarray"}
+{"task_id": 576, "original": "Write a python function to find the last digit in factorial of a given number.", "mutation": "find_last_digit_factorial"}
+{"task_id": 577, "original": "Write a function to interleave lists of the same length.", "mutation": "interleaveLists"}
+{"task_id": 578, "original": "Write a function to find the dissimilar elements in the given two tuples.", "mutation": "find_dissimilar_elements"}
+{"task_id": 579, "original": "Write a function to extract the even elements in the nested mixed tuple.", "mutation": "extract_even_elements_nested_tuple"}
+{"task_id": 580, "original": "Write a python function to find the surface area of the square pyramid.", "mutation": "calculate_surface_area_square_pyramid"}
+{"task_id": 581, "original": "Write a function to check if a dictionary is empty or not.", "mutation": "isDictionaryEmpty"}
+{"task_id": 582, "original": "Write a function for nth catalan number.", "mutation": "calculateNthCatalanNumber"}
+{"task_id": 583, "original": "Write a function to find all adverbs and their positions in a given sentence by using regex.", "mutation": "findAdverbsPositions"}
+{"task_id": 584, "original": "Write a function to find the n - expensive price items from a given dataset using heap queue algorithm.", "mutation": "find_n_expensive_items_using_heapqueue"}
+{"task_id": 585, "original": "Write a python function to split the array and add the first part to the end.", "mutation": "split_and_add_to_end"}
+{"task_id": 586, "original": "Write a function to convert a list to a tuple.", "mutation": "convertListToTuple"}
+{"task_id": 587, "original": "Write a python function to find the difference between largest and smallest value in a given array.", "mutation": "find_difference_largest_smallest_values"}
+{"task_id": 588, "original": "Write a function to find perfect squares between two given numbers.", "mutation": "findPerfectSquaresInRange"}
+{"task_id": 589, "original": "Write a function to convert polar coordinates to rectangular coordinates.", "mutation": "convertPolarToRectangular"}
+{"task_id": 590, "original": "Write a python function to interchange the first and last elements in a list.", "mutation": "interchange_first_last_elements"}
+{"task_id": 591, "original": "Write a python function to find sum of product of binomial co-efficients.", "mutation": "sum_product_binomial_coefficients"}
+{"task_id": 592, "original": "Write a function to remove leading zeroes from an ip address.", "mutation": "removeLeadingZeroesFromIPAddress"}
+{"task_id": 593, "original": "Write a function to find the difference of first even and odd number of a given list.", "mutation": "find_difference_first_even_odd"}
+{"task_id": 594, "original": "Write a python function to count minimum number of swaps required to convert one binary string to another.", "mutation": "count_min_swaps_binary_strings"}
+{"task_id": 595, "original": "Write a function to find the size of the given tuple.", "mutation": "find_tuple_size"}
+{"task_id": 596, "original": "Write a function to find kth element from the given two sorted arrays.", "mutation": "findKthElementFromSortedArrays"}
+{"task_id": 597, "original": "Write a function to check whether the given number is armstrong or not.", "mutation": "isArmstrongNumber"}
+{"task_id": 598, "original": "Write a function to find sum and average of first n natural numbers.", "mutation": "calculateSumAndAverageOfFirstNNaturalNumbers"}
+{"task_id": 599, "original": "Write a python function to check whether the given number is even or not using bitwise operator.", "mutation": "check_even_using_bitwise"}
+{"task_id": 600, "original": "Write a function to find the longest chain which can be formed from the given set of pairs.", "mutation": "findLongestChain"}
+{"task_id": 601, "original": "Write a python function to find the first repeated character in a given string.", "mutation": "find_first_repeated_character"}
+{"task_id": 602, "original": "Write a function to get a lucid number smaller than or equal to n.", "mutation": "getLucidNumberSmallerThanOrEqualToN"}
+{"task_id": 603, "original": "Write a function to reverse words in a given string.", "mutation": "reverseWordsInString"}
+{"task_id": 604, "original": "Write a function to check if the given integer is a prime number.", "mutation": "isPrime"}
+{"task_id": 605, "original": "Write a function to convert degrees to radians.", "mutation": "convertDegreesToRadians"}
+{"task_id": 606, "original": "Write a function to search a literals string in a string and also find the location within the original string where the pattern occurs by using regex.", "mutation": "searchAndFindLocationOfStringPattern"}
+{"task_id": 607, "original": "Write a python function to find nth bell number.", "mutation": "find_nth_bell_number"}
+{"task_id": 608, "original": "Write a python function to find minimum possible value for the given periodic function.", "mutation": "find_minimum_periodic_value"}
+{"task_id": 609, "original": "Write a python function to remove the k'th element from a given list.", "mutation": "remove_kth_element"}
+{"task_id": 610, "original": "Write a function to find the maximum of nth column from the given tuple list.", "mutation": "find_max_nth_column"}
+{"task_id": 611, "original": "Write a python function to merge the first and last elements separately in a list of lists.", "mutation": "merge_first_last_elements_lists"}
+{"task_id": 612, "original": "Write a function to find the maximum value in record list as tuple attribute in the given tuple list.", "mutation": "find_max_value_in_tuple_list"}
+{"task_id": 613, "original": "Write a function to find the cumulative sum of all the values that are present in the given tuple list.", "mutation": "find_cumulative_sum"}
+{"task_id": 614, "original": "Write a function to find average value of the numbers in a given tuple of tuples.", "mutation": "find_average_value_tuple_of_tuples"}
+{"task_id": 615, "original": "Write a function to perfom the modulo of tuple elements in the given two tuples.", "mutation": "performModuloOnTuples"}
+{"task_id": 616, "original": "Write a function to check for the number of jumps required of given length to reach a point of form (d, 0) from origin in a 2d plane.", "mutation": "calculateJumpsToReachPoint"}
+{"task_id": 617, "original": "Write a function to divide two lists using map and lambda function.", "mutation": "divide_lists"}
+{"task_id": 618, "original": "Write a function to move all the numbers in it to the given string.", "mutation": "moveNumbersToString"}
+{"task_id": 619, "original": "Write a function to find the largest subset where each pair is divisible.", "mutation": "findLargestDivisibleSubset"}
+{"task_id": 620, "original": "Write a function to increment the numeric values in the given strings by k.", "mutation": "incrementNumericValuesByK"}
+{"task_id": 621, "original": "Write a function to find the median of two sorted arrays of same size.", "mutation": "findMedianOfTwoSortedArrays"}
+{"task_id": 622, "original": "Write a function to find the n-th power of individual elements in a list using lambda function.", "mutation": "find_nth_power_list_using_lambda"}
+{"task_id": 623, "original": "Write a python function to convert the given string to upper case.", "mutation": "convert_to_uppercase"}
+{"task_id": 624, "original": "Write a python function to interchange first and last elements in a given list.", "mutation": "interchange_first_last_elements"}
+{"task_id": 625, "original": "Write a python function to find the largest triangle that can be inscribed in the semicircle.", "mutation": "find_largest_inscribed_triangle"}
+{"task_id": 626, "original": "Write a python function to find the smallest missing number from the given array.", "mutation": "find_smallest_missing_number"}
+{"task_id": 627, "original": "Write a function to replace all spaces in the given string with character * list item * list item * list item * list item '%20'.", "mutation": "replaceSpacesWithPercent20"}
+{"task_id": 628, "original": "Write a python function to find even numbers from a mixed list.", "mutation": "find_even_numbers"}
+{"task_id": 629, "original": "Write a function to extract all the adjacent coordinates of the given coordinate tuple.", "mutation": "extractAdjacentCoordinates"}
+{"task_id": 630, "original": "Write a function to replace whitespaces with an underscore and vice versa in a given string by using regex.", "mutation": "replaceWhitespaceWithUnderscoreAndViceVersa"}
+{"task_id": 631, "original": "Write a python function to move all zeroes to the end of the given list.", "mutation": "move_zeroes_to_end"}
+{"task_id": 632, "original": "Write a python function to find the sum of xor of all pairs of numbers in the given array.", "mutation": "find_xor_pairs_sum"}
+{"task_id": 633, "original": "Write a python function to find the sum of fourth power of first n even natural numbers.", "mutation": "sum_of_fourth_power_of_even_numbers(n)"}
+{"task_id": 634, "original": "Write a function to push all values into a heap and then pop off the smallest values one at a time.", "mutation": "heapSortSmallestValues"}
+{"task_id": 635, "original": "Write a python function to check if roots of a quadratic equation are reciprocal of each other or not.", "mutation": "check_reciprocal_roots"}
+{"task_id": 636, "original": "Write a function to check whether the given amount has no profit and no loss", "mutation": "checkProfitLoss"}
+{"task_id": 637, "original": "Write a function to calculate wind chill index.", "mutation": "calculateWindChillIndex"}
+{"task_id": 638, "original": "Write a function to sum the length of the names of a given list of names after removing the names that start with a lowercase letter.", "mutation": "sumLengthOfNamesStartingWithUppercase"}
+{"task_id": 639, "original": "Write a function to remove the parenthesis area in a string.", "mutation": "removeParenthesisAreaFromString"}
+{"task_id": 640, "original": "Write a function to find the nth nonagonal number.", "mutation": "findNthNonagonalNumber"}
+{"task_id": 641, "original": "Write a function to remove similar rows from the given tuple matrix.", "mutation": "removeSimilarRows"}
+{"task_id": 642, "original": "Write a function that matches a word containing 'z', not at the start or end of the word.", "mutation": "matchWordWithZNotAtStartOrEnd"}
+{"task_id": 643, "original": "Write a python function to reverse an array upto a given position.", "mutation": "reverse_array_up_to_position"}
+{"task_id": 644, "original": "Write a function to find the product of it\u2019s kth index in the given tuples.", "mutation": "find_product_at_kth_index"}
+{"task_id": 645, "original": "Write a python function to count number of cubes of size k in a cube of size n.", "mutation": "count_cubes_in_cube"}
+{"task_id": 646, "original": "Write a function to split a string at uppercase letters.", "mutation": "splitStringAtUppercaseLetters"}
+{"task_id": 647, "original": "Write a function to exchange the position of every n-th value with (n+1)th value and (n+1)th value with n-th value in a given list.", "mutation": "swapNthValues"}
+{"task_id": 648, "original": "Write a python function to calculate the sum of the numbers in a list between the indices of a specified range.", "mutation": "calculate_sum_in_range"}
+{"task_id": 649, "original": "Write a python function to check whether the given two arrays are equal or not.", "mutation": "check_arrays_equality"}
+{"task_id": 650, "original": "Write a function to check if one tuple is a subset of another tuple.", "mutation": "is_subset(tuple1, tuple2)"}
+{"task_id": 651, "original": "Write a function to flatten the given tuple matrix into the tuple list with each tuple representing each column.", "mutation": "flatten_tuple_matrix_into_column_tuple_list"}
+{"task_id": 652, "original": "Write a function to group a sequence of key-value pairs into a dictionary of lists using collections module.", "mutation": "group_key_value_pairs_into_dictionary_lists"}
+{"task_id": 653, "original": "Write a function to find the perimeter of a rectangle.", "mutation": "calculateRectanglePerimeter"}
+{"task_id": 654, "original": "Write a python function to find the sum of fifth power of n natural numbers.", "mutation": "sum_of_fifth_power_of_natural_numbers"}
+{"task_id": 655, "original": "Write a python function to find the minimum sum of absolute differences of two arrays.", "mutation": "find_min_sum_abs_diffs"}
+{"task_id": 656, "original": "Write a python function to find the first digit in factorial of a given number.", "mutation": "find_first_digit_factorial"}
+{"task_id": 657, "original": "Write a function to find the item with maximum occurrences in a given list.", "mutation": "findMaxOccurrencesItem"}
+{"task_id": 658, "original": "Write a python function to print duplicants from a list of integers.", "mutation": "print_duplicates_from_list"}
+{"task_id": 659, "original": "Write a python function to choose points from two ranges such that no point lies in both the ranges.", "mutation": "choose_points_from_ranges"}
+{"task_id": 660, "original": "Write a function to find the maximum sum that can be formed which has no three consecutive elements present.", "mutation": "findMaxSumNoThreeConsecutiveElements"}
+{"task_id": 661, "original": "Write a function to sort a list in a dictionary.", "mutation": "sort_list_in_dictionary"}
+{"task_id": 662, "original": "Write a function to find the largest possible value of k such that k modulo x is y.", "mutation": "findLargestKWithModuloY"}
+{"task_id": 663, "original": "Write a python function to find the average of even numbers till a given even number.", "mutation": "find_average_of_even_numbers"}
+{"task_id": 664, "original": "Write a python function to shift first element to the end of given list.", "mutation": "shift_first_element_to_end"}
+{"task_id": 665, "original": "Write a function to count occurrence of a character in a string.", "mutation": "countCharacterOccurrences"}
+{"task_id": 666, "original": "Write a python function to count number of vowels in the string.", "mutation": "count_vowels"}
+{"task_id": 667, "original": "Write a python function to replace multiple occurence of character by single.", "mutation": "replace_multiple_occurrence_by_single"}
+{"task_id": 668, "original": "Write a function to check whether the given ip address is valid or not using regex.", "mutation": "isValidIPAddress"}
+{"task_id": 669, "original": "Write a python function to check whether a sequence of numbers has a decreasing trend or not.", "mutation": "check_decreasing_trend"}
+{"task_id": 670, "original": "Write a python function to set the right most unset bit.", "mutation": "set_rightmost_unset_bit"}
+{"task_id": 671, "original": "Write a function to find maximum of three numbers.", "mutation": "findMaxOfThreeNumbers"}
+{"task_id": 672, "original": "Write a python function to convert a list of multiple integers into a single integer.", "mutation": "convert_list_to_int"}
+{"task_id": 673, "original": "Write a function to remove duplicate words from a given string using collections module.", "mutation": "remove_duplicate_words_using_collections"}
+{"task_id": 674, "original": "Write a function to add two integers. however, if the sum is between the given range it will return 20.", "mutation": "addIntegersWithRangeCheck"}
+{"task_id": 675, "original": "Write a function to remove everything except alphanumeric characters from the given string by using regex.", "mutation": "removeNonAlphanumericCharacters"}
+{"task_id": 676, "original": "Write a function to check if the triangle is valid or not.", "mutation": "isTriangleValid"}
+{"task_id": 677, "original": "Write a python function to remove spaces from a given string.", "mutation": "remove_spaces"}
+{"task_id": 678, "original": "Write a function to access dictionary key\u2019s element by index.", "mutation": "accessDictionaryKeyByIndex"}
+{"task_id": 679, "original": "Write a python function to check whether a sequence of numbers has an increasing trend or not.", "mutation": "check_increasing_trend"}
+{"task_id": 680, "original": "Write a python function to find the smallest prime divisor of a number.", "mutation": "find_smallest_prime_divisor"}
+{"task_id": 681, "original": "Write a function to multiply two lists using map and lambda function.", "mutation": "multiply_lists"}
+{"task_id": 682, "original": "Write a python function to check whether the given number can be represented by sum of two squares or not.", "mutation": "check_sum_of_two_squares"}
+{"task_id": 683, "original": "Write a python function to count occurences of a character in a repeated string.", "mutation": "count_occurrences_of_character_in_repeated_string"}
+{"task_id": 684, "original": "Write a python function to find sum of prime numbers between 1 to n.", "mutation": "sum_of_prime_numbers"}
+{"task_id": 685, "original": "Write a function to find the frequency of each element in the given list.", "mutation": "findElementFrequency"}
+{"task_id": 686, "original": "Write a function to find the greatest common divisor (gcd) of two integers by using recursion.", "mutation": "findGCDRecursive"}
+{"task_id": 687, "original": "Write a function to get the length of a complex number.", "mutation": "getComplexNumberLength"}
+{"task_id": 688, "original": "Write a function to find the minimum number of jumps to reach the end of the array for the given array of integers where each element represents the max number of steps that can be made forward from that element. > indented block > indented block", "mutation": "findMinJumpsToEnd"}
+{"task_id": 689, "original": "Write a function to multiply consecutive numbers of a given list.", "mutation": "multiplyConsecutiveNumbers"}
+{"task_id": 690, "original": "Write a function to group the 1st elements on the basis of 2nd elements in the given tuple list.", "mutation": "group_by_second_element"}
+{"task_id": 691, "original": "Write a python function to find the last two digits in factorial of a given number.", "mutation": "find_last_two_digits_factorial"}
+{"task_id": 692, "original": "Write a function to remove multiple spaces in a string by using regex.", "mutation": "removeMultipleSpacesRegex"}
+{"task_id": 693, "original": "Write a function to extract unique values from the given dictionary values.", "mutation": "extractUniqueValues"}
+{"task_id": 694, "original": "Write a function to check if each element of the second tuple is greater than its corresponding index in the first tuple.", "mutation": "check_if_elements_greater_than_index"}
+{"task_id": 695, "original": "Write a function to zip two given lists of lists.", "mutation": "zipListsOfLists"}
+{"task_id": 696, "original": "Write a function to find number of even elements in the given list using lambda function.", "mutation": "count_even_elements_using_lambda"}
+{"task_id": 697, "original": "Write a function to sort dictionary items by tuple product of keys for the given dictionary with tuple keys.", "mutation": "sort_dict_items_by_tuple_product"}
+{"task_id": 698, "original": "Write a python function to find the minimum number of swaps required to convert one binary string to another.", "mutation": "find_min_swaps_binary_strings"}
+{"task_id": 699, "original": "Write a function to count the number of elements in a list which are within a specific range.", "mutation": "countElementsInRange"}
+{"task_id": 700, "original": "Write a function to find the equilibrium index of the given array.", "mutation": "findEquilibriumIndex"}
+{"task_id": 701, "original": "Write a function to find the minimum number of elements that should be removed such that amax-amin<=k.", "mutation": "findMinElementsToRemove"}
+{"task_id": 702, "original": "Write a function to check whether the given key is present in the dictionary or not.", "mutation": "check_key_in_dictionary"}
+{"task_id": 703, "original": "Write a function to calculate the harmonic sum of n-1.", "mutation": "calculateHarmonicSum"}
+{"task_id": 704, "original": "Write a function to sort a list of lists by length and value.", "mutation": "sortListofListsByLengthAndValue"}
+{"task_id": 705, "original": "Write a function to find whether an array is subset of another array.", "mutation": "isSubsetArray"}
+{"task_id": 706, "original": "Write a python function to count the total set bits from 1 to n.", "mutation": "count_total_set_bits"}
+{"task_id": 707, "original": "Write a python function to convert a string to a list.", "mutation": "convert_string_to_list"}
+{"task_id": 708, "original": "Write a function to count unique keys for each value present in the tuple.", "mutation": "count_unique_keys_per_value(tuple)"}
+{"task_id": 709, "original": "Write a function to access the initial and last data of the given tuple record.", "mutation": "get_initial_and_last_data"}
+{"task_id": 710, "original": "Write a python function to check whether the product of digits of a number at even and odd places is equal or not.", "mutation": "check_product_of_digits_even_odd_places_equal"}
+{"task_id": 711, "original": "Write a function to remove duplicates from a list of lists.", "mutation": "remove_duplicates_from_list_of_lists"}
+{"task_id": 712, "original": "Write a function to check if the given tuple contains all valid values or not.", "mutation": "checkValidTupleValues"}
+{"task_id": 713, "original": "Write a python function to count the number of distinct power of prime factor of given number.", "mutation": "count_distinct_prime_power_factors"}
+{"task_id": 714, "original": "Write a function to convert the given string of integers into a tuple.", "mutation": "convert_string_to_tuple"}
+{"task_id": 715, "original": "Write a function to find the perimeter of a rombus.", "mutation": "calculateRombusPerimeter"}
+{"task_id": 716, "original": "Write a function to calculate the standard deviation.", "mutation": "calculateStandardDeviation"}
+{"task_id": 717, "original": "Write a function to create a list taking alternate elements from another given list.", "mutation": "createAlternateList"}
+{"task_id": 718, "original": "Write a function that matches a string that has an a followed by zero or more b's.", "mutation": "matchStringWithAAndBs"}
+{"task_id": 719, "original": "Write a function to add a dictionary to the tuple.", "mutation": "add_dict_to_tuple"}
+{"task_id": 720, "original": "Write a function to find a path with the maximum average over all existing paths for the given square matrix of size n*n.", "mutation": "findMaxAveragePath"}
+{"task_id": 721, "original": "Write a function to filter the height and width of students which are stored in a dictionary.", "mutation": "filterStudentDimensions"}
+{"task_id": 722, "original": "Write a function to count the same pair in two given lists using map function.", "mutation": "countSamePairsUsingMap"}
+{"task_id": 723, "original": "Write a function to calculate the sum of all digits of the base to the specified power.", "mutation": "calculateSumOfDigitsOfBaseToPower"}
+{"task_id": 724, "original": "Write a function to extract values between quotation marks of the given string by using regex.", "mutation": "extractValuesBetweenQuotationMarks"}
+{"task_id": 725, "original": "Write a function to multiply the adjacent elements of the given tuple.", "mutation": "multiply_adjacent_elements(tuple)"}
+{"task_id": 726, "original": "Write a function to remove all characters except letters and numbers using regex", "mutation": "removeSpecialCharacters"}
+{"task_id": 727, "original": "Write a function to sum elements in two lists.", "mutation": "sum_lists_elements"}
+{"task_id": 728, "original": "Write a function to add two lists using map and lambda function.", "mutation": "add_lists_using_map_and_lambda"}
+{"task_id": 729, "original": "Write a function to remove consecutive duplicates of a given list.", "mutation": "remove_consecutive_duplicates"}
+{"task_id": 730, "original": "Write a function to find the lateral surface area of a cone.", "mutation": "calculateLateralSurfaceAreaCone"}
+{"task_id": 731, "original": "Write a function to replace all occurrences of spaces, commas, or dots with a colon.", "mutation": "replaceSpecialCharactersWithColon"}
+{"task_id": 732, "original": "Write a function to find the index of the first occurrence of a given number in a sorted array.", "mutation": "findIndexOfNumber"}
+{"task_id": 733, "original": "Write a python function to find sum of products of all possible subarrays.", "mutation": "find_sum_of_products_of_subarrays"}
+{"task_id": 734, "original": "Write a python function to toggle bits of the number except the first and the last bit.", "mutation": "toggle_bits_except_first_last"}
+{"task_id": 735, "original": "Write a function to locate the left insertion point for a specified value in sorted order.", "mutation": "findLeftInsertionPoint"}
+{"task_id": 736, "original": "Write a function to check whether the given string is starting with a vowel or not using regex.", "mutation": "isStartingWithVowel"}
+{"task_id": 737, "original": "Write a function to calculate the geometric sum of n-1.", "mutation": "calculateGeometricSum"}
+{"task_id": 738, "original": "Write a python function to find the index of smallest triangular number with n digits.", "mutation": "find_index_of_smallest_triangular_number_with_n_digits"}
+{"task_id": 739, "original": "Write a function to convert the given tuple to a key-value dictionary using adjacent elements.", "mutation": "convert_tuple_to_dict"}
+{"task_id": 740, "original": "Write a python function to check whether all the characters are same or not.", "mutation": "check_same_characters"}
+{"task_id": 741, "original": "Write a function to caluclate the area of a tetrahedron.", "mutation": "calculateTetrahedronArea"}
+{"task_id": 742, "original": "Write a function to rotate a given list by specified number of items to the right direction.", "mutation": "rotateList"}
+{"task_id": 743, "original": "Write a function to check if the given tuple has any none value or not.", "mutation": "check_for_none_values(tuple)"}
+{"task_id": 744, "original": "Write a function to find numbers within a given range where every number is divisible by every digit it contains.", "mutation": "findDivisibleNumbersInRange"}
+{"task_id": 745, "original": "Write a function to find area of a sector.", "mutation": "calculateSectorArea"}
+{"task_id": 746, "original": "Write a function to find the longest common subsequence for the given three string sequence.", "mutation": "findLongestCommonSubsequence"}
+{"task_id": 747, "original": "Write a function to put spaces between words starting with capital letters in a given string by using regex.", "mutation": "addSpacesBetweenCapitalWords"}
+{"task_id": 748, "original": "Write a function to sort a given list of strings of numbers numerically.", "mutation": "sortNumericStrings"}
+{"task_id": 749, "original": "Write a function to add the given tuple to the given list.", "mutation": "addTupleToList"}
+{"task_id": 750, "original": "Write a function to check if the given array represents min heap or not.", "mutation": "isMinHeap"}
+{"task_id": 751, "original": "Write a function to find the nth jacobsthal number.", "mutation": "findNthJacobsthalNumber"}
+{"task_id": 752, "original": "Write a function to find minimum k records from tuple list.", "mutation": "findMinKRecords"}
+{"task_id": 753, "original": "Write a function to find common index elements from three lists.", "mutation": "findCommonIndexElements"}
+{"task_id": 754, "original": "Write a function to find the second smallest number in a list.", "mutation": "findSecondSmallestNumber"}
+{"task_id": 755, "original": "Write a function that matches a string that has an a followed by zero or one 'b'.", "mutation": "matchStringWithOptionalB"}
+{"task_id": 756, "original": "Write a function to count the pairs of reverse strings in the given string list.", "mutation": "countReverseStringPairs"}
+{"task_id": 757, "original": "Write a function to count number of unique lists within a list.", "mutation": "count_unique_lists"}
+{"task_id": 758, "original": "Write a function to check a decimal with a precision of 2.", "mutation": "checkDecimalPrecision2"}
+{"task_id": 759, "original": "Write a python function to check whether an array contains only one distinct element or not.", "mutation": "check_one_distinct_element_array"}
+{"task_id": 760, "original": "Write a function to caluclate arc length of an angle.", "mutation": "calculateArcLengthAngle"}
+{"task_id": 761, "original": "Write a function to check whether the given month number contains 30 days or not.", "mutation": "isThirtyDaysMonth"}
+{"task_id": 762, "original": "Write a python function to find the minimum difference between any two elements in a given array.", "mutation": "find_min_difference"}
+{"task_id": 763, "original": "Write a python function to count numeric values in a given string.", "mutation": "count_numeric_values"}
+{"task_id": 764, "original": "Write a function to find nth polite number.", "mutation": "findNthPoliteNumber"}
+{"task_id": 765, "original": "Write a function to iterate over all pairs of consecutive items in a given list.", "mutation": "iterate_over_consecutive_pairs"}
+{"task_id": 766, "original": "Write a python function to count the number of pairs whose sum is equal to \u2018sum\u2019.", "mutation": "count_pairs_with_sum"}
+{"task_id": 767, "original": "Write a python function to check for odd parity of a given number.", "mutation": "check_odd_parity"}
+{"task_id": 768, "original": "Write a python function to get the difference between two lists.", "mutation": "get_list_difference"}
+{"task_id": 769, "original": "Write a python function to find the sum of fourth power of first n odd natural numbers.", "mutation": "sum_of_fourth_power_of_odd_numbers(n)"}
+{"task_id": 770, "original": "Write a function to check if the given expression is balanced or not.", "mutation": "isExpressionBalanced"}
+{"task_id": 771, "original": "Write a function to remove all the words with k length in the given string.", "mutation": "removeWordsWithKLength"}
+{"task_id": 772, "original": "Write a function to find the occurrence and position of the substrings within a string.", "mutation": "findSubstringOccurrencesAndPositions"}
+{"task_id": 773, "original": "Write a function to check if the string is a valid email address or not using regex.", "mutation": "isValidEmailAddress"}
+{"task_id": 774, "original": "Write a python function to check whether every odd index contains odd numbers of a given list.", "mutation": "check_odd_index_odd_numbers"}
+{"task_id": 775, "original": "Write a function to count those characters which have vowels as their neighbors in the given string.", "mutation": "countVowelNeighborsCharacters"}
+{"task_id": 776, "original": "Write a python function to find the sum of non-repeated elements in a given array.", "mutation": "sum_non_repeated_elements"}
+{"task_id": 777, "original": "Write a function to pack consecutive duplicates of a given list elements into sublists.", "mutation": "pack_consecutive_duplicates"}
+{"task_id": 778, "original": "Write a function to count the number of unique lists within a list.", "mutation": "count_unique_lists"}
+{"task_id": 779, "original": "Write a function to find the combinations of sums with tuples in the given tuple list.", "mutation": "find_combinations_of_sums"}
+{"task_id": 780, "original": "Write a python function to check whether the count of divisors is even or odd.", "mutation": "check_divisor_count_parity"}
+{"task_id": 781, "original": "Write a python function to find the sum of all odd length subarrays.", "mutation": "sum_odd_length_subarrays"}
+{"task_id": 782, "original": "Write a function to convert rgb color to hsv color.", "mutation": "convertRGBtoHSV"}
+{"task_id": 783, "original": "Write a function to find the product of first even and odd number of a given list.", "mutation": "find_product_of_first_even_and_odd_numbers"}
+{"task_id": 784, "original": "Write a function to convert tuple string to integer tuple.", "mutation": "convertTupleStringToIntegerTuple"}
+{"task_id": 785, "original": "Write a function to locate the right insertion point for a specified value in sorted order.", "mutation": "findInsertionPoint"}
+{"task_id": 786, "original": "Write a function that matches a string that has an a followed by three 'b'.", "mutation": "matchStringWithThreeBsAfterA"}
+{"task_id": 787, "original": "Write a function to create a new tuple from the given string and list.", "mutation": "create_tuple_from_string_and_list"}
+{"task_id": 788, "original": "Write a function to calculate the perimeter of a regular polygon.", "mutation": "calculatePerimeterRegularPolygon"}
+{"task_id": 789, "original": "Write a python function to check whether every even index contains even numbers of a given list.", "mutation": "check_even_index_even_numbers"}
+{"task_id": 790, "original": "Write a function to remove the nested record from the given tuple.", "mutation": "removeNestedRecord"}
+{"task_id": 791, "original": "Write a python function to count the number of lists in a given number of lists.", "mutation": "count_lists"}
+{"task_id": 792, "original": "Write a python function to find the last position of an element in a sorted array.", "mutation": "find_last_position_sorted_array"}
+{"task_id": 793, "original": "Write a function that matches a string that has an 'a' followed by anything, ending in 'b'.", "mutation": "matchStringWithAAndB"}
+{"task_id": 794, "original": "Write a function to find the n - cheap price items from a given dataset using heap queue algorithm.", "mutation": "find_n_cheapest_items_using_heap_queue"}
+{"task_id": 795, "original": "Write a function to find the sum of all items in the given dictionary.", "mutation": "calculate_sum_of_dict_values"}
+{"task_id": 796, "original": "Write a python function to find the sum of all odd natural numbers within the range l and r.", "mutation": "find_sum_of_odd_numbersInRange"}
+{"task_id": 797, "original": "Write a python function to find the sum of an array.", "mutation": "find_array_sum"}
+{"task_id": 798, "original": "Write a python function to left rotate the bits of a given number.", "mutation": "left_rotate_bits"}
+{"task_id": 799, "original": "Write a function to remove all whitespaces from a string.", "mutation": "removeWhitespacesFromString"}
+{"task_id": 800, "original": "Write a python function to count the number of equal numbers from three given integers.", "mutation": "count_equal_numbers"}
+{"task_id": 801, "original": "Write a python function to count the number of rotations required to generate a sorted array.", "mutation": "count_rotations_required_sorted_array"}
+{"task_id": 802, "original": "Write a python function to check whether the given number is a perfect square or not.", "mutation": "is_perfect_square"}
+{"task_id": 803, "original": "Write a python function to check whether the product of numbers is even or not.", "mutation": "is_product_even"}
+{"task_id": 804, "original": "Write a function to find the list in a list of lists whose sum of elements is the highest.", "mutation": "find_list_with_highest_sum"}
+{"task_id": 805, "original": "Write a function to find maximum run of uppercase characters in the given string.", "mutation": "findMaxUppercaseRun"}
+{"task_id": 806, "original": "Write a python function to find the first odd number in a given list of numbers.", "mutation": "find_first_odd_number"}
+{"task_id": 807, "original": "Write a function to check if the given tuples contain the k or not.", "mutation": "check_if_tuple_contains_k"}
+{"task_id": 808, "original": "Write a function to check if each element of second tuple is smaller than its corresponding index in first tuple.", "mutation": "check_elements_smaller_than_index"}
+{"task_id": 809, "original": "Write a function to iterate over elements repeating each as many times as its count.", "mutation": "repeatElementsByCount"}
+{"task_id": 810, "original": "Write a function to check if two lists of tuples are identical or not.", "mutation": "check_identical_lists_of_tuples"}
+{"task_id": 811, "original": "Write a function to abbreviate 'road' as 'rd.' in a given string.", "mutation": "abbreviateRoad"}
+{"task_id": 812, "original": "Write a function to find length of the string.", "mutation": "findStringLength"}
+{"task_id": 813, "original": "Write a function to find the area of a rombus.", "mutation": "calculateRombusArea"}
+{"task_id": 814, "original": "Write a function to sort the given array without using any sorting algorithm. the given array consists of only 0, 1, and 2.", "mutation": "sortArray012WithoutSortingAlgorithm"}
+{"task_id": 815, "original": "Write a function to clear the values of the given tuples.", "mutation": "clearTupleValues"}
+{"task_id": 816, "original": "Write a function to find numbers divisible by m or n from a list of numbers using lambda function.", "mutation": "find_divisible_numbers"}
+{"task_id": 817, "original": "Write a python function to count lower case letters in a given string.", "mutation": "count_lower_case_letters"}
+{"task_id": 818, "original": "Write a function to count the frequency of consecutive duplicate elements in a given list of numbers.", "mutation": "countConsecutiveDuplicatesFrequency"}
+{"task_id": 819, "original": "Write a function to check whether the given month number contains 28 days or not.", "mutation": "checkIfMonthHas28Days"}
+{"task_id": 820, "original": "Write a function to merge two dictionaries into a single expression.", "mutation": "merge_dicts"}
+{"task_id": 821, "original": "Write a function to return true if the password is valid.", "mutation": "isPasswordValid"}
+{"task_id": 822, "original": "Write a function to check if the given string starts with a substring using regex.", "mutation": "checkStartsWithSubstringRegex"}
+{"task_id": 823, "original": "Write a python function to remove even numbers from a given list.", "mutation": "remove_even_numbers"}
+{"task_id": 824, "original": "Write a python function to access multiple elements of specified index from a given list.", "mutation": "access_multiple_elements"}
+{"task_id": 825, "original": "Write a python function to find the type of triangle from the given sides.", "mutation": "find_triangle_type"}
+{"task_id": 826, "original": "Write a function to sum a specific column of a list in a given list of lists.", "mutation": "sumColumnInListOfLists"}
+{"task_id": 827, "original": "Write a function to count alphabets,digits and special charactes in a given string.", "mutation": "countCharactersInString"}
+{"task_id": 828, "original": "Write a function to find out the second most repeated (or frequent) string in the given sequence.", "mutation": "findSecondMostRepeatedString"}
+{"task_id": 829, "original": "Write a function to round up a number to specific digits.", "mutation": "roundUpToSpecificDigits"}
+{"task_id": 830, "original": "Write a python function to count equal element pairs from the given array.", "mutation": "count_equal_pairs"}
+{"task_id": 831, "original": "Write a function to extract the maximum numeric value from a string by using regex.", "mutation": "extractMaxNumericValueFromStringUsingRegex"}
+{"task_id": 832, "original": "Write a function to get dictionary keys as a list.", "mutation": "get_dictionary_keys_as_list"}
+{"task_id": 833, "original": "Write a function to generate a square matrix filled with elements from 1 to n raised to the power of 2 in spiral order.", "mutation": "generateSpiralSquareMatrix"}
+{"task_id": 834, "original": "Write a python function to find the slope of a line.", "mutation": "find_slope"}
+{"task_id": 835, "original": "Write a function to find length of the subarray having maximum sum.", "mutation": "findMaxLengthSubarraySum"}
+{"task_id": 836, "original": "Write a python function to find the cube sum of first n odd natural numbers.", "mutation": "find_cube_sum_of_odd_natural_numbers"}
+{"task_id": 837, "original": "Write a python function to find minimum number swaps required to make two binary strings equal.", "mutation": "find_min_swaps_binary_strings"}
+{"task_id": 838, "original": "Write a function to sort the tuples alphabetically by the first item of each tuple.", "mutation": "sortTuplesByFirstItemAlphabetically"}
+{"task_id": 839, "original": "Write a python function to check whether the roots of a quadratic equation are numerically equal but opposite in sign or not.", "mutation": "check_opposite_roots"}
+{"task_id": 840, "original": "Write a function to count the number of inversions in the given array.", "mutation": "countInversions"}
+{"task_id": 841, "original": "Write a function to find the number which occurs for odd number of times in the given array.", "mutation": "findOddOccurringNumber"}
+{"task_id": 842, "original": "Write a function to find the nth super ugly number from a given prime list of size k using heap queue algorithm.", "mutation": "findNthSuperUglyNumber"}
+{"task_id": 843, "original": "Write a python function to find the kth element in an array containing odd elements first and then even elements.", "mutation": "find_kth_odd_even_element"}
+{"task_id": 844, "original": "Write a python function to count the number of digits in factorial of a given number.", "mutation": "count_digits_in_factorial"}
+{"task_id": 845, "original": "Write a function to find the minimum number of platforms required for a railway/bus station.", "mutation": "findMinPlatformsRequired"}
+{"task_id": 846, "original": "Write a python function to copy a list from a singleton tuple.", "mutation": "copy_list_from_singleton_tuple"}
+{"task_id": 847, "original": "Write a function to find the area of a trapezium.", "mutation": "calculateTrapeziumArea"}
+{"task_id": 848, "original": "Write a python function to find sum of all prime divisors of a given number.", "mutation": "sum_of_prime_divisors"}
+{"task_id": 849, "original": "Write a function to check if a triangle of positive area is possible with the given angles.", "mutation": "isTrianglePossible"}
+{"task_id": 850, "original": "Write a python function to find sum of inverse of divisors.", "mutation": "sum_of_inverse_divisors"}
+{"task_id": 851, "original": "Write a python function to remove negative numbers from a list.", "mutation": "remove_negative_numbers"}
+{"task_id": 852, "original": "Write a python function to find sum of odd factors of a number.", "mutation": "sum_odd_factors"}
+{"task_id": 853, "original": "Write a function which accepts an arbitrary list and converts it to a heap using heap queue algorithm.", "mutation": "convert_to_heap"}
+{"task_id": 854, "original": "Write a python function to check for even parity of a given number.", "mutation": "check_even_parity"}
+{"task_id": 855, "original": "Write a python function to find minimum adjacent swaps required to sort binary array.", "mutation": "find_min_adjacent_swaps_binary_array"}
+{"task_id": 856, "original": "Write a function to list out the list of given strings individually using map function.", "mutation": "listStringsIndividual"}
+{"task_id": 857, "original": "Write a function to count number of lists in a given list of lists and square the count.", "mutation": "countAndSquareNumberOfLists"}
+{"task_id": 858, "original": "Write a function to generate all sublists of a given list.", "mutation": "generateSublists"}
+{"task_id": 859, "original": "Write a function to check whether the given string is ending with only alphanumeric characters or not using regex.", "mutation": "isEndingWithAlphanumericCharacters"}
+{"task_id": 860, "original": "Write a function to find all anagrams of a string in a given list of strings using lambda function.", "mutation": "find_anagrams_using_lambda"}
+{"task_id": 861, "original": "Write a function to find the occurrences of n most common words in a given text.", "mutation": "findOccurrencesOfNMostCommonWords"}
+{"task_id": 862, "original": "Write a function to find the length of the longest sub-sequence such that elements in the subsequences are consecutive integers.", "mutation": "findLongestConsecutiveSubsequenceLength"}
+{"task_id": 863, "original": "Write a function to find palindromes in a given list of strings using lambda function.", "mutation": "find_palindromes_using_lambda"}
+{"task_id": 864, "original": "Write a function to print n-times a list using map function.", "mutation": "print_list_n_times_using_map"}
+{"task_id": 865, "original": "Write a function to check whether the given month name contains 31 days or not.", "mutation": "checkMonthDays"}
+{"task_id": 866, "original": "Write a python function to add a minimum number such that the sum of array becomes even.", "mutation": "addMinimumForEvenSum"}
+{"task_id": 867, "original": "Write a python function to find the length of the last word in a given string.", "mutation": "find_length_of_last_word"}
+{"task_id": 868, "original": "Write a function to remove sublists from a given list of lists, which are outside a given range.", "mutation": "removeSublistsOutsideRange"}
+{"task_id": 869, "original": "Write a function to calculate the sum of the positive numbers of a given list of numbers using lambda function.", "mutation": "calculate_sum_of_positive_numbers_using_lambda"}
+{"task_id": 870, "original": "Write a python function to check whether the given strings are rotations of each other or not.", "mutation": "check_rotation_strings"}
+{"task_id": 871, "original": "Write a function to check if a nested list is a subset of another nested list.", "mutation": "is_nested_list_subset"}
+{"task_id": 872, "original": "Write a function to solve the fibonacci sequence using recursion.", "mutation": "solveFibonacciRecursively"}
+{"task_id": 873, "original": "Write a python function to check if the string is a concatenation of another string.", "mutation": "is_concatenation"}
+{"task_id": 874, "original": "Write a function to find the minimum difference in the tuple pairs of given tuples.", "mutation": "find_min_difference_tuple_pairs"}
+{"task_id": 875, "original": "Write a python function to find lcm of two positive integers.", "mutation": "find_lcm"}
+{"task_id": 876, "original": "Write a python function to sort the given string.", "mutation": "sort_string"}
+{"task_id": 877, "original": "Write a function to check if the given tuple contains only k elements.", "mutation": "checkTupleSize"}
+{"task_id": 878, "original": "Write a function that matches a string that has an 'a' followed by anything, ending in 'b' by using regex.", "mutation": "matchStringWithAAndBRegex"}
+{"task_id": 879, "original": "Write a python function to find number of solutions in quadratic equation.", "mutation": "find_number_of_solutions_quad_eq"}
+{"task_id": 880, "original": "Write a function to find the sum of first even and odd number of a given list.", "mutation": "findSumOfFirstEvenAndOddNumbers"}
+{"task_id": 881, "original": "Write a function to caluclate perimeter of a parallelogram.", "mutation": "calculateParallelogramPerimeter"}
+{"task_id": 882, "original": "Write a function to find numbers divisible by m and n from a list of numbers using lambda function.", "mutation": "find_divisible_numbers"}
+{"task_id": 883, "original": "Write a python function to check whether all the bits are within a given range or not.", "mutation": "check_bits_range()"}
+{"task_id": 884, "original": "Write a python function to check whether the two given strings are isomorphic to each other or not.", "mutation": "check_isomorphic_strings"}
+{"task_id": 885, "original": "Write a function to add all the numbers in a list and divide it with the length of the list.", "mutation": "average_of_list_numbers"}
+{"task_id": 886, "original": "Write a python function to check whether the given number is odd or not using bitwise operator.", "mutation": "is_odd_using_bitwise"}
+{"task_id": 887, "original": "Write a function to substract the elements of the given nested tuples.", "mutation": "subtract_nested_tuples"}
+{"task_id": 888, "original": "Write a function to reverse each list in a given list of lists.", "mutation": "reverseListsInList"}
+{"task_id": 889, "original": "Write a python function to find the index of an extra element present in one sorted array.", "mutation": "find_extra_element_index"}
+{"task_id": 890, "original": "Write a python function to check whether the given two numbers have same number of digits or not.", "mutation": "check_same_number_of_digits"}
+{"task_id": 891, "original": "Write a function to remove multiple spaces in a string.", "mutation": "removeMultipleSpacesFromString"}
+{"task_id": 892, "original": "Write a python function to get the last element of each sublist.", "mutation": "get_last_element_of_each_sublist"}
+{"task_id": 893, "original": "Write a function to convert the given string of float type into tuple.", "mutation": "convert_string_to_tuple_float"}
+{"task_id": 894, "original": "Write a function to find the maximum sum of subsequences of given array with no adjacent elements.", "mutation": "findMaxSumNoAdjacentElements"}
+{"task_id": 895, "original": "Write a function to sort a list in increasing order by the last element in each tuple from a given list of non-empty tuples.", "mutation": "sort_list_by_last_element"}
+{"task_id": 896, "original": "Write a python function to check whether the word is present in a given sentence or not.", "mutation": "check_word_in_sentence(sentence, word)"}
+{"task_id": 897, "original": "Write a function to extract specified number of elements from a given list, which follow each other continuously.", "mutation": "extractConsecutiveElements"}
+{"task_id": 898, "original": "Write a python function to check whether an array can be sorted or not by picking only the corner elements.", "mutation": "check_corner_sortability"}
+{"task_id": 899, "original": "Write a function where a string will start with a specific number.", "mutation": "startsWithSpecificNumber"}
+{"task_id": 900, "original": "Write a function to find the smallest multiple of the first n numbers.", "mutation": "findSmallestMultipleOfFirstNNumbers"}
+{"task_id": 901, "original": "Write a function to combine two dictionaries by adding values for common keys.", "mutation": "combineDictionaries"}
+{"task_id": 902, "original": "Write a python function to count the total unset bits from 1 to n.", "mutation": "count_unset_bits_from_1_to_n"}
+{"task_id": 903, "original": "Write a function to return true if the given number is even else return false.", "mutation": "isEven"}
+{"task_id": 904, "original": "Write a python function to find the sum of squares of binomial co-efficients.", "mutation": "sum_of_squares_binomial_coefficients"}
+{"task_id": 905, "original": "Write a function to extract year, month and date from a url by using regex.", "mutation": "extractDateFromUrl"}
+{"task_id": 906, "original": "Write a function to print the first n lucky numbers.", "mutation": "printFirstNLuckyNumbers"}
+{"task_id": 907, "original": "Write a function to find the fixed point in the given array.", "mutation": "findFixedPoint"}
+{"task_id": 908, "original": "Write a function to find the previous palindrome of a specified number.", "mutation": "findPreviousPalindrome"}
+{"task_id": 909, "original": "Write a function to validate a gregorian date.", "mutation": "validateGregorianDate"}
+{"task_id": 910, "original": "Write a function to compute maximum product of three numbers of a given array of integers using heap queue algorithm.", "mutation": "compute_max_product_of_three_numbers_using_heap_queue_algorithm"}
+{"task_id": 911, "original": "Write a function to find ln, m lobb number.", "mutation": "findLobbNumber"}
+{"task_id": 912, "original": "Write a function to check for a number at the end of a string.", "mutation": "checkNumberAtEndOfString"}
+{"task_id": 913, "original": "Write a python function to check whether the given string is made up of two alternating characters or not.", "mutation": "check_alternating_characters"}
+{"task_id": 914, "original": "Write a function to rearrange positive and negative numbers in a given array using lambda function.", "mutation": "rearrange_numbers_using_lambda"}
+{"task_id": 915, "original": "Write a function to find if there is a triplet in the array whose sum is equal to a given value.", "mutation": "findTripletWithSum"}
+{"task_id": 916, "original": "Write a function to find the sequences of one upper case letter followed by lower case letters.", "mutation": "findUpperLowerSequences"}
+{"task_id": 917, "original": "Write a function to count coin change.", "mutation": "countCoinChange"}
+{"task_id": 918, "original": "Write a python function to multiply all items in the list.", "mutation": "multiply_list_items"}
+{"task_id": 919, "original": "Write a function to remove all tuples with all none values in the given tuple list.", "mutation": "remove_empty_tuples"}
+{"task_id": 920, "original": "Write a function to perform chunking of tuples each of size n.", "mutation": "chunkTuplesOfSizeN"}
+{"task_id": 921, "original": "Write a function to find a pair with the highest product from a given array of integers.", "mutation": "findHighestProductPair"}
+{"task_id": 922, "original": "Write a function to find the length of the shortest string that has both str1 and str2 as subsequences.", "mutation": "findShortestCommonSubsequenceLength"}
+{"task_id": 923, "original": "Write a function to find maximum of two numbers.", "mutation": "findMax"}
+{"task_id": 924, "original": "Write a python function to calculate the product of all the numbers of a given tuple.", "mutation": "calculate_product_of_tuple_numbers"}
+{"task_id": 925, "original": "Write a function to find n-th rencontres number.", "mutation": "findNthRencontresNumber"}
+{"task_id": 926, "original": "Write a function to calculate the height of the given binary tree.", "mutation": "calculateBinaryTreeHeight"}
+{"task_id": 927, "original": "Write a function to convert a date of yyyy-mm-dd format to dd-mm-yyyy format.", "mutation": "convertDateFormat"}
+{"task_id": 928, "original": "Write a function to count repeated items of a tuple.", "mutation": "count_repeated_items_tuple"}
+{"task_id": 929, "original": "Write a function that matches a string that has an a followed by zero or more b's by using regex.", "mutation": "matchStringWithAAndBs"}
+{"task_id": 930, "original": "Write a function to calculate the sum of series 1\u00b3+2\u00b3+3\u00b3+\u2026.+n\u00b3.", "mutation": "calculateSumOfCubedSeries"}
+{"task_id": 931, "original": "Write a function to remove duplicate words from a given list of strings.", "mutation": "removeDuplicateWords"}
+{"task_id": 932, "original": "Write a function to convert camel case string to snake case string by using regex.", "mutation": "convertCamelToSnakeCase"}
+{"task_id": 933, "original": "Write a function to find the nth delannoy number.", "mutation": "findNthDelannoyNumber"}
+{"task_id": 934, "original": "Write a function to calculate the sum of series 1\u00b2+2\u00b2+3\u00b2+\u2026.+n\u00b2.", "mutation": "calculateSumOfSeriesSquaredNumbers"}
+{"task_id": 935, "original": "Write a function to re-arrange the given tuples based on the given ordered list.", "mutation": "rearrangeTuplesBasedOnOrderedList"}
+{"task_id": 936, "original": "Write a function to count the most common character in a given string.", "mutation": "countMostCommonCharacter"}
+{"task_id": 937, "original": "Write a function to find three closest elements from three sorted arrays.", "mutation": "findThreeClosestElements"}
+{"task_id": 938, "original": "Write a function to sort a list of dictionaries using lambda function.", "mutation": "sort_list_of_dictionaries"}
+{"task_id": 939, "original": "Write a function to sort the given array by using heap sort.", "mutation": "sortArrayWithHeapSort"}
+{"task_id": 940, "original": "Write a function to count the elements in a list until an element is a tuple.", "mutation": "count_elements_until_tuple"}
+{"task_id": 941, "original": "Write a function to check if any list element is present in the given list.", "mutation": "check_list_element_presence"}
+{"task_id": 942, "original": "Write a function to combine two given sorted lists using heapq module.", "mutation": "combine_sorted_lists_using_heapq"}
+{"task_id": 943, "original": "Write a function to separate and print the numbers and their position of a given string.", "mutation": "printNumbersWithPosition"}
+{"task_id": 944, "original": "Write a function to convert the given tuples into set.", "mutation": "convertTuplesToSet"}
+{"task_id": 945, "original": "Write a function to find the most common elements and their counts of a specified text.", "mutation": "findMostCommonElementsAndCounts"}
+{"task_id": 946, "original": "Write a python function to find the length of the shortest word.", "mutation": "find_shortest_word_length"}
+{"task_id": 947, "original": "Write a function to get an item of a tuple.", "mutation": "getItemFromTuple"}
+{"task_id": 948, "original": "Write a function to sort the given tuple list basis the total digits in tuple.", "mutation": "sort_tuple_list_by_total_digits"}
+{"task_id": 949, "original": "Write a function to display sign of the chinese zodiac for given year.", "mutation": "displayChineseZodiacSign"}
+{"task_id": 950, "original": "Write a function to find the maximum of similar indices in two lists of tuples.", "mutation": "find_max_similar_indices"}
+{"task_id": 951, "original": "Write a function to compute the value of ncr mod p.", "mutation": "computeNcrModP"}
+{"task_id": 952, "original": "Write a python function to find the minimun number of subsets with distinct elements.", "mutation": "find_min_subset_distinct_elements"}
+{"task_id": 953, "original": "Write a function that gives profit amount if the given amount has profit else return none.", "mutation": "calculate_profit_amount"}
+{"task_id": 954, "original": "Write a function to find out, if the given number is abundant.", "mutation": "isAbundant"}
+{"task_id": 955, "original": "Write a function to split the given string at uppercase letters by using regex.", "mutation": "splitStringAtUppercaseLetters"}
+{"task_id": 956, "original": "Write a python function to get the position of rightmost set bit.", "mutation": "get_rightmost_set_bit_position"}
+{"task_id": 957, "original": "Write a function to convert an integer into a roman numeral.", "mutation": "convertIntegerToRomanNumeral"}
+{"task_id": 958, "original": "Write a python function to find the average of a list.", "mutation": "calculate_average"}
+{"task_id": 959, "original": "Write a function to solve tiling problem.", "mutation": "solveTilingProblem"}
+{"task_id": 960, "original": "Write a function to convert a roman numeral to an integer.", "mutation": "convertRomanNumeralToInteger"}
+{"task_id": 961, "original": "Write a python function to find the sum of all even natural numbers within the range l and r.", "mutation": "find_sum_of_even_numbersInRange"}
+{"task_id": 962, "original": "Write a function to calculate the discriminant value.", "mutation": "calculateDiscriminant"}
+{"task_id": 963, "original": "Write a python function to check whether the length of the word is even or not.", "mutation": "is_even_length_word"}
+{"task_id": 964, "original": "Write a function to convert camel case string to snake case string.", "mutation": "convertCamelToSnakeCase"}
+{"task_id": 965, "original": "Write a function to remove an empty tuple from a list of tuples.", "mutation": "remove_empty_tuple_from_list"}
+{"task_id": 966, "original": "Write a python function to accept the strings which contains all vowels.", "mutation": "check_all_vowels_present"}
+{"task_id": 967, "original": "Write a python function to find maximum possible value for the given periodic function.", "mutation": "find_max_periodic_value"}
+{"task_id": 968, "original": "Write a function to join the tuples if they have similar initial elements.", "mutation": "joinTuplesWithSimilarInitialElements"}
+{"task_id": 969, "original": "Write a function to find minimum of two numbers.", "mutation": "findMinimum"}
+{"task_id": 970, "original": "Write a function to find the maximum number of segments of lengths a, b and c that can be formed from n.", "mutation": "findMaxSegments"}
+{"task_id": 971, "original": "Write a function to concatenate the given two tuples to a nested tuple.", "mutation": "concatenateTuples"}
+{"task_id": 972, "original": "Write a python function to left rotate the string.", "mutation": "left_rotate_string"}
+{"task_id": 973, "original": "Write a function to find the minimum total path sum in the given triangle.", "mutation": "findMinimumTotalPathSumTriangle"}

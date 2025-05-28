@@ -2,6 +2,7 @@ import json
 import copy
 import tqdm
 import concurrent.futures as cfuts
+import random
 from src import model, utils
 
 
@@ -47,20 +48,25 @@ def run(messages):
 
 
 if __name__ == '__main__':
+    random.seed(42)
     is_test_case = True
     type = 'code' if not is_test_case else 'test'
     dataset = 'mbpp'
     mutation_type = 'rephrase_sentence'
-    model_name = 'gpt-3.5-turbo'
-    mutation_file = f'mutation_output/{mutation_type}_{model_name}.jsonl'
+    model_name = 'o3-mini'
+    mutation_model_name = 'gpt-3.5-turbo'
+
+    mutation_file = f'mutation_output/{mutation_type}_{mutation_model_name}.jsonl'
     template_file = f'template_output/prompts_with_templates_{type}_{dataset}.jsonl'
-    output_path = f'generation_output/{type}_{mutation_type}.jsonl'
+    output_path = f'generation_output/{type}_{mutation_type}_{model_name}.jsonl'
 
     # Load data files
     with open(mutation_file) as f:
         mutations = [json.loads(line) for line in f]
     with open(template_file) as f:
         template_data = [json.loads(line) for line in f]
+
+    template_data = template_data[:20]
 
     # Filter mutations to match template data
     idxs = {int(data['task_id'].split('/')[-1])-1 for data in template_data}
@@ -70,6 +76,7 @@ if __name__ == '__main__':
     problems = [
         data['template'].format(
             function_name='func',
+            # problem=data['original_problem']
             problem=mutation_data[idx]['mutation']
         )
         for idx, data in enumerate(template_data)

@@ -233,80 +233,81 @@ def evaluate_tests(test_results, golden_solutions, test_cases):
 if __name__ == '__main__':
     random.seed(42)
     mutation_type_list = ['original', 'active_to_passive', 'declarative_to_interrogative', 'verb_to_similar_verb', 'lowercase_to_uppercase', 'add_precision', 'rephrase_sentence']
-    mutation_type_list = ['original', 'active_to_passive', 'declarative_to_interrogative']
+    mutation_type_list = ['original', 'lowercase_to_uppercase']
+    model_name = 'o3-mini'
 
     solutions = dict()
     test_cases = dict()
     execution_results = dict()  # Dictionary to store execution results
     
     for mutation_type in mutation_type_list:
-        generated_data = list(map(json.loads, open(f'generation_output/code_{mutation_type}.jsonl')))
+        generated_data = list(map(json.loads, open(f'generation_output/code_{mutation_type}_{model_name}.jsonl')))
         for idx, data in enumerate(generated_data):
             solutions[idx] = solutions.get(idx, []) + [data['response_code']]
     
     for mutation_type in mutation_type_list:
-        generated_test = list(map(json.loads, open(f'generation_output/test_{mutation_type}.jsonl')))
+        generated_test = list(map(json.loads, open(f'generation_output/test_{mutation_type}_{model_name}.jsonl')))
         for idx, test in enumerate(generated_test):
             tests = seperate_assertions(test['response_code'])
             test_cases[idx] = test_cases.get(idx, []) + tests
     
     # Execute each solution with its corresponding test cases
-    # def process_solution(args):
-    #     idx, solution, test_cases_idx = args
-    #     # Standardize function name in solution
-    #     standardized_solution = standardize_function_name(solution)
-    #     # Standardize function name in test cases 
-    #     standardized_tests = [standardize_assertion_name(test) for test in test_cases_idx]
-    #     results = execute_code_file(standardized_solution, standardized_tests)
-    #     return idx, results
-
-    # with cfuts.ThreadPoolExecutor(max_workers=32) as executor:
-    #     tasks = []
-    #     for idx in solutions:
-    #         execution_results[idx] = []
-    #         for solution in solutions[idx]:
-    #             tasks.append((idx, solution, test_cases[idx]))
-        
-    #     for idx, results in tqdm.tqdm(executor.map(process_solution, tasks), total=len(tasks)):
-    #         execution_results[idx].append(results)
-    #     # if idx == 100:
-    #     #     break
-    
-    # # Select best solutions and choose golden solution
-    # # golden_test_cases = {}
-    dataset = 'mbpp'
-    golden_solutions = ground_truth_solution(f'dataset/{dataset}_sanitized_for_code_generation.jsonl')
-    # golden_test_cases = ground_truth_test(f'dataset/{dataset}_sanitized_for_code_generation.jsonl')
-
-    # evaluate_solutions(execution_results, golden_test_cases, solutions)
-
-
-    test_results = dict()
-    def process_test(args):
-        idx, solutions, test_case = args
-        results = []
+    def process_solution(args):
+        idx, solution, test_cases_idx = args
         # Standardize function name in solution
-        standardized_solutions = [standardize_function_name(solution) for solution in solutions]
+        standardized_solution = standardize_function_name(solution)
         # Standardize function name in test cases 
-        standardized_tests = [standardize_assertion_name(test_case)]
-        for standardized_solution in standardized_solutions:
-            results.append(execute_code_file(standardized_solution, standardized_tests)[0])
-        return idx, solutions, results
+        standardized_tests = [standardize_assertion_name(test) for test in test_cases_idx]
+        results = execute_code_file(standardized_solution, standardized_tests)
+        return idx, results
 
     with cfuts.ThreadPoolExecutor(max_workers=32) as executor:
         tasks = []
-        for idx in test_cases:
-            # Initialize execution_results with empty lists for each test case
-            test_results[idx] = []
-            for test_case in test_cases[idx]:
-                tasks.append((idx, solutions[idx], test_case))
+        for idx in solutions:
+            execution_results[idx] = []
+            for solution in solutions[idx]:
+                tasks.append((idx, solution, test_cases[idx]))
         
-        for idx, solutions, results in tqdm.tqdm(executor.map(process_test, tasks), total=len(tasks)):
-            # For each test case, append the execution result to its list
-            # print(idx, results)
-            test_results[idx].append(results)
+        for idx, results in tqdm.tqdm(executor.map(process_solution, tasks), total=len(tasks)):
+            execution_results[idx].append(results)
+        # if idx == 100:
+        #     break
+    
+    # # Select best solutions and choose golden solution
+    
+    dataset = 'mbpp'
+    golden_test_cases = ground_truth_test(f'dataset/{dataset}_sanitized_for_code_generation.jsonl')
+    golden_test_cases = golden_test_cases[:20]
 
-    evaluate_tests(test_results, golden_solutions, test_cases)
+    evaluate_solutions(execution_results, golden_test_cases, solutions)
+
+    # golden_solutions = ground_truth_solution(f'dataset/{dataset}_sanitized_for_code_generation.jsonl')
+    # test_results = dict()
+    # def process_test(args):
+    #     idx, solutions, test_case = args
+    #     results = []
+    #     # Standardize function name in solution
+    #     standardized_solutions = [standardize_function_name(solution) for solution in solutions]
+    #     # Standardize function name in test cases 
+    #     standardized_tests = [standardize_assertion_name(test_case)]
+    #     for standardized_solution in standardized_solutions:
+    #         results.append(execute_code_file(standardized_solution, standardized_tests)[0])
+    #     return idx, solutions, results
+
+    # with cfuts.ThreadPoolExecutor(max_workers=32) as executor:
+    #     tasks = []
+    #     for idx in test_cases:
+    #         # Initialize execution_results with empty lists for each test case
+    #         test_results[idx] = []
+    #         for test_case in test_cases[idx]:
+    #             tasks.append((idx, solutions[idx], test_case))
+        
+    #     for idx, solutions, results in tqdm.tqdm(executor.map(process_test, tasks), total=len(tasks)):
+    #         # For each test case, append the execution result to its list
+    #         # print(idx, results)
+    #         test_results[idx].append(results)
+
+    # evaluate_tests(test_results, golden_solutions, test_cases)
 
     
 
